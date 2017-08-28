@@ -1,0 +1,176 @@
+2017-07-14 16:04:21,888 INFO osmnx Configured osmnx
+2017-07-14 16:04:22,933 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.33 seconds
+2017-07-14 16:04:22,941 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:04:22,947 INFO osmnx Created bounding box 966.0 meters in each direction from (37, 145): 37.008702613,36.991297373,145.010850269,144.989149829
+2017-07-14 16:04:22,953 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-14 16:04:22,960 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:04:22,961 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:04:23,082 INFO osmnx Retrieved response from cache file "cache/b95bec3a4c84a2b47394ad2f05a995c9.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2836.99129737%2C144.98914983%2C37.00870261%2C145.01085027%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:04:23,082 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.12 seconds
+2017-07-14 16:04:23,082 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:14:14,483 INFO osmnx Configured osmnx
+2017-07-14 16:43:15,413 INFO osmnx Configured osmnx
+2017-07-14 16:43:16,630 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-53 in 0.28 seconds
+2017-07-14 16:43:16,651 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:43:16,680 INFO osmnx Created bounding box 966.0 meters in each direction from (45, 135): 45.0086958549,44.9913041318,135.012256504,134.987743496
+2017-07-14 16:43:16,684 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-53 in 0.00 seconds
+2017-07-14 16:43:16,730 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:43:16,730 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:43:18,933 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-14 16:43:18,933 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](44.99130413,134.98774350,45.00869585,135.01225650);>;);out;'}"
+2017-07-14 16:43:20,615 INFO osmnx Downloaded 0.3KB from www.overpass-api.de in 1.68 seconds
+2017-07-14 16:43:20,625 INFO osmnx Saved response to cache file "cache/62cee2e7ff0448ade49f658b435bd53b.json"
+2017-07-14 16:43:20,625 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 3.89 seconds
+2017-07-14 16:43:20,627 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:47:30,551 INFO osmnx Configured osmnx
+2017-07-14 16:47:55,657 INFO osmnx Configured osmnx
+2017-07-14 16:47:55,678 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-23 in 0.02 seconds
+2017-07-14 16:47:55,684 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:47:55,684 INFO osmnx Created bounding box 966.0 meters in each direction from (45, -45): 45.0086958549,44.9913041318,-44.9877434961,-45.0122565039
+2017-07-14 16:47:55,687 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-23 in 0.00 seconds
+2017-07-14 16:47:55,691 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:47:55,691 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:47:56,157 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-14 16:47:56,158 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](44.99130413,-45.01225650,45.00869585,-44.98774350);>;);out;'}"
+2017-07-14 16:47:56,690 INFO osmnx Downloaded 0.3KB from www.overpass-api.de in 0.53 seconds
+2017-07-14 16:47:56,691 INFO osmnx Saved response to cache file "cache/827d9bdeba2029f97725ae106e90e557.json"
+2017-07-14 16:47:56,693 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.00 seconds
+2017-07-14 16:47:56,693 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:53:37,267 INFO osmnx Configured osmnx
+2017-07-14 16:53:37,286 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.02 seconds
+2017-07-14 16:53:37,292 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:53:37,292 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, -122.41): 37.7987063036,37.7812936834,-122.399029198,-122.420970832
+2017-07-14 16:53:37,296 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.00 seconds
+2017-07-14 16:53:37,303 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:53:37,305 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:53:37,766 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-14 16:53:37,766 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](37.78129368,-122.42097083,37.79870630,-122.39902920);>;);out;'}"
+2017-07-14 16:53:40,076 INFO osmnx Downloaded 541.5KB from www.overpass-api.de in 2.31 seconds
+2017-07-14 16:53:40,173 INFO osmnx Saved response to cache file "cache/be5f239320cf51c9b3a711c4cbfd41d9.json"
+2017-07-14 16:53:40,174 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 2.87 seconds
+2017-07-14 16:53:40,174 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:53:45,674 INFO osmnx Graph was not connected, retained only the largest weakly connected component (2,294 of 2,337 total nodes) in 0.19 seconds
+2017-07-14 16:53:45,680 INFO osmnx Created graph with 2,294 nodes and 4,369 edges in 5.51 seconds
+2017-07-14 16:53:45,974 INFO osmnx Added edge lengths to graph in 0.29 seconds
+2017-07-14 16:53:46,157 INFO osmnx Truncated graph by bounding box in 0.18 seconds
+2017-07-14 16:53:46,163 INFO osmnx Removed 0 isolated nodes
+2017-07-14 16:53:46,173 INFO osmnx graph_from_bbox() returning graph with 2,092 nodes and 4,041 edges
+2017-07-14 16:53:46,178 INFO osmnx graph_from_point() returning graph with 2,092 nodes and 4,041 edges
+2017-07-14 16:53:46,184 INFO osmnx Begin topologically simplifying the graph...
+2017-07-14 16:53:46,444 INFO osmnx Identified 1,260 edge endpoints in 0.06 seconds
+2017-07-14 16:53:46,453 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2017-07-14 16:53:46,644 INFO osmnx Simplified graph (from 2,092 to 1,260 nodes and from 4,041 to 2,679 edges) in 0.19 seconds
+2017-07-14 16:53:47,135 INFO osmnx Created a GeoDataFrame from graph in 0.29 seconds
+2017-07-14 16:53:47,286 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-10 in 0.15 seconds
+2017-07-14 16:53:47,631 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-10 in 0.32 seconds
+2017-07-14 16:53:47,700 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.07 seconds
+2017-07-14 16:53:49,359 INFO osmnx Rebuilt projected graph in 1.66 seconds
+2017-07-14 16:53:49,678 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.00 seconds
+2017-07-14 16:53:49,678 INFO osmnx Created bounding box 805 meters in each direction from (37.79, -122.41) and projected it: 4183484.39839,4181874.39839,552753.020637,551143.020637
+2017-07-14 16:53:49,680 INFO osmnx Begin plotting the graph...
+2017-07-14 16:53:50,812 INFO osmnx Drew the graph edges in 0.49 seconds
+2017-07-14 16:53:51,206 INFO osmnx Saved the figure to disk in 0.23 seconds
+2017-07-14 16:54:49,749 INFO osmnx Configured osmnx
+2017-07-14 16:54:49,775 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.02 seconds
+2017-07-14 16:54:49,790 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:54:49,792 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:54:49,796 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:54:49,803 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:54:49,805 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:54:50,210 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-14 16:54:50,210 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](37.78129368,122.39902920,37.79870630,122.42097083);>;);out;'}"
+2017-07-14 16:54:50,799 INFO osmnx Downloaded 0.3KB from www.overpass-api.de in 0.59 seconds
+2017-07-14 16:54:50,801 INFO osmnx Saved response to cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json"
+2017-07-14 16:54:50,802 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.00 seconds
+2017-07-14 16:54:50,802 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:26,594 INFO osmnx Configured osmnx
+2017-07-14 16:56:26,607 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.01 seconds
+2017-07-14 16:56:26,614 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:26,615 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:56:26,618 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:26,622 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:26,622 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:26,654 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:26,654 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.03 seconds
+2017-07-14 16:56:26,654 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:30,663 INFO osmnx Configured osmnx
+2017-07-14 16:56:30,667 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:30,673 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:30,673 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:56:30,677 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:30,680 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:30,681 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:30,683 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:30,683 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-14 16:56:30,683 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:32,976 INFO osmnx Configured osmnx
+2017-07-14 16:56:32,980 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:32,984 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:32,986 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:56:32,990 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:32,993 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:32,994 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:32,996 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:32,996 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-14 16:56:32,996 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:37,326 INFO osmnx Configured osmnx
+2017-07-14 16:56:37,331 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:37,335 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:37,336 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:56:37,342 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:37,345 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:37,346 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:37,348 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:37,348 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-14 16:56:37,348 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:39,301 INFO osmnx Configured osmnx
+2017-07-14 16:56:39,305 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:39,309 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:39,309 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:56:39,313 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:56:39,316 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:39,318 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:39,319 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:39,319 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-14 16:56:39,319 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:43,798 INFO osmnx Configured osmnx
+2017-07-14 16:56:43,802 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.00 seconds
+2017-07-14 16:56:43,811 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:43,812 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, -122.41): 37.7987063036,37.7812936834,-122.399029198,-122.420970832
+2017-07-14 16:56:43,819 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.00 seconds
+2017-07-14 16:56:43,825 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:56:43,825 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:56:43,874 INFO osmnx Retrieved response from cache file "cache/be5f239320cf51c9b3a711c4cbfd41d9.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C-122.42097083%2C37.79870630%2C-122.39902920%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:56:43,874 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.05 seconds
+2017-07-14 16:56:43,874 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-14 16:56:44,151 INFO osmnx Graph was not connected, retained only the largest weakly connected component (2,294 of 2,337 total nodes) in 0.20 seconds
+2017-07-14 16:56:44,161 INFO osmnx Created graph with 2,294 nodes and 4,369 edges in 0.29 seconds
+2017-07-14 16:56:44,209 INFO osmnx Added edge lengths to graph in 0.05 seconds
+2017-07-14 16:56:44,464 INFO osmnx Truncated graph by bounding box in 0.25 seconds
+2017-07-14 16:56:44,473 INFO osmnx Removed 0 isolated nodes
+2017-07-14 16:56:44,484 INFO osmnx graph_from_bbox() returning graph with 2,092 nodes and 4,041 edges
+2017-07-14 16:56:44,581 INFO osmnx graph_from_point() returning graph with 2,092 nodes and 4,041 edges
+2017-07-14 16:56:44,589 INFO osmnx Begin topologically simplifying the graph...
+2017-07-14 16:56:44,855 INFO osmnx Identified 1,260 edge endpoints in 0.07 seconds
+2017-07-14 16:56:44,862 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2017-07-14 16:56:45,058 INFO osmnx Simplified graph (from 2,092 to 1,260 nodes and from 4,041 to 2,679 edges) in 0.20 seconds
+2017-07-14 16:56:45,448 INFO osmnx Created a GeoDataFrame from graph in 0.24 seconds
+2017-07-14 16:56:45,584 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-10 in 0.14 seconds
+2017-07-14 16:56:45,963 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-10 in 0.37 seconds
+2017-07-14 16:56:46,046 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.08 seconds
+2017-07-14 16:56:47,767 INFO osmnx Rebuilt projected graph in 1.72 seconds
+2017-07-14 16:56:47,973 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-10 in 0.00 seconds
+2017-07-14 16:56:47,973 INFO osmnx Created bounding box 805 meters in each direction from (37.79, -122.41) and projected it: 4183484.39839,4181874.39839,552753.020637,551143.020637
+2017-07-14 16:56:47,973 INFO osmnx Begin plotting the graph...
+2017-07-14 16:56:48,183 INFO osmnx Drew the graph edges in 0.15 seconds
+2017-07-14 16:56:48,437 INFO osmnx Saved the figure to disk in 0.14 seconds
+2017-07-14 16:57:06,536 INFO osmnx Configured osmnx
+2017-07-14 16:57:06,540 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:57:06,548 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:57:06,549 INFO osmnx Created bounding box 966.0 meters in each direction from (37.79, 122.41): 37.7987063036,37.7812936834,122.420970832,122.399029198
+2017-07-14 16:57:06,555 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-14 16:57:06,562 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-14 16:57:06,562 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-14 16:57:06,563 INFO osmnx Retrieved response from cache file "cache/8d0a7dc0296ecf530f2d511331ef034f.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22proposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2837.78129368%2C122.39902920%2C37.79870630%2C122.42097083%29%3B%3E%3B%29%3Bout%3B"
+2017-07-14 16:57:06,565 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-14 16:57:06,565 INFO osmnx Creating networkx graph from downloaded OSM data...

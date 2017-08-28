@@ -1,0 +1,1176 @@
+2017-07-28 16:35:44,127 INFO osmnx Configured osmnx
+2017-07-28 16:35:44,588 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.20 seconds
+2017-07-28 16:35:44,594 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:35:44,594 INFO osmnx Created bounding box 2400.0 meters in each direction from (30.252368, 120.150921): 30.2739993198,30.230736597,120.175837706,120.126004972
+2017-07-28 16:35:44,596 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:35:44,601 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:35:44,601 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:35:45,293 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:35:45,293 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](30.23073660,120.12600497,30.27399932,120.17583771);>;);out;'}"
+2017-07-28 16:35:46,878 INFO osmnx Downloaded 832.5KB from www.overpass-api.de in 1.59 seconds
+2017-07-28 16:35:46,948 INFO osmnx Saved response to cache file "cache/bfa1c155965c1334dfbbe6d64033e3fc.json"
+2017-07-28 16:35:46,948 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 2.35 seconds
+2017-07-28 16:35:46,950 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:35:47,486 INFO osmnx Graph was not connected, retained only the largest weakly connected component (5,631 of 6,087 total nodes) in 0.41 seconds
+2017-07-28 16:35:47,500 INFO osmnx Created graph with 5,631 nodes and 11,283 edges in 0.55 seconds
+2017-07-28 16:35:47,608 INFO osmnx Added edge lengths to graph in 0.11 seconds
+2017-07-28 16:35:47,976 INFO osmnx Truncated graph by bounding box in 0.37 seconds
+2017-07-28 16:35:47,990 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:35:48,407 INFO osmnx Graph was not connected, retained only the largest weakly connected component (4,893 of 4,903 total nodes) in 0.42 seconds
+2017-07-28 16:35:48,424 INFO osmnx graph_from_bbox() returning graph with 4,893 nodes and 9,936 edges
+2017-07-28 16:35:48,433 INFO osmnx graph_from_point() returning graph with 4,893 nodes and 9,936 edges
+2017-07-28 16:35:48,444 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:35:48,851 INFO osmnx Identified 1,537 edge endpoints in 0.13 seconds
+2017-07-28 16:35:48,874 INFO osmnx Constructed all paths to simplify in 0.02 seconds
+2017-07-28 16:35:49,387 INFO osmnx Simplified graph (from 4,893 to 1,537 nodes and from 9,936 to 3,664 edges) in 0.51 seconds
+2017-07-28 16:35:49,719 INFO osmnx Created a GeoDataFrame from graph in 0.14 seconds
+2017-07-28 16:35:49,829 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-51 in 0.11 seconds
+2017-07-28 16:35:51,335 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-51 in 1.50 seconds
+2017-07-28 16:35:51,398 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.06 seconds
+2017-07-28 16:35:53,819 INFO osmnx Rebuilt projected graph in 2.42 seconds
+2017-07-28 16:35:54,153 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:35:54,154 INFO osmnx Created bounding box 2000 meters in each direction from (30.252368, 120.150921) and projected it: 3352186.08163,3348186.08163,227854.834788,223854.834788
+2017-07-28 16:35:54,154 INFO osmnx Begin plotting the graph...
+2017-07-28 16:35:55,049 INFO osmnx Drew the graph edges in 0.33 seconds
+2017-07-28 16:35:55,318 INFO osmnx Saved the figure to disk in 0.16 seconds
+2017-07-28 16:38:18,711 INFO osmnx Configured osmnx
+2017-07-28 16:38:18,733 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.02 seconds
+2017-07-28 16:38:18,736 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:38:18,736 INFO osmnx Created bounding box 2400.0 meters in each direction from (31.238865, 121.479264): 31.2605122443,31.2172176793,121.504458142,121.454070232
+2017-07-28 16:38:18,740 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:38:18,744 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:38:18,744 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:38:19,203 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:38:19,203 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](31.21721768,121.45407023,31.26051224,121.50445814);>;);out;'}"
+2017-07-28 16:38:20,828 INFO osmnx Downloaded 2,204.8KB from www.overpass-api.de in 1.62 seconds
+2017-07-28 16:38:21,026 INFO osmnx Saved response to cache file "cache/114ab8065cf7a1a8ad62f2ef9a8fe179.json"
+2017-07-28 16:38:21,028 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 2.28 seconds
+2017-07-28 16:38:21,028 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:38:22,734 INFO osmnx Graph was not connected, retained only the largest weakly connected component (15,829 of 16,255 total nodes) in 1.32 seconds
+2017-07-28 16:38:22,802 INFO osmnx Created graph with 15,829 nodes and 28,575 edges in 1.77 seconds
+2017-07-28 16:38:23,131 INFO osmnx Added edge lengths to graph in 0.33 seconds
+2017-07-28 16:38:24,119 INFO osmnx Truncated graph by bounding box in 0.98 seconds
+2017-07-28 16:38:24,279 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:38:24,361 INFO osmnx graph_from_bbox() returning graph with 14,591 nodes and 26,798 edges
+2017-07-28 16:38:24,388 INFO osmnx graph_from_point() returning graph with 14,591 nodes and 26,798 edges
+2017-07-28 16:38:24,427 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:38:25,799 INFO osmnx Identified 5,348 edge endpoints in 0.37 seconds
+2017-07-28 16:38:25,851 INFO osmnx Constructed all paths to simplify in 0.05 seconds
+2017-07-28 16:38:27,117 INFO osmnx Simplified graph (from 14,591 to 5,348 nodes and from 26,798 to 12,372 edges) in 1.27 seconds
+2017-07-28 16:38:28,321 INFO osmnx Created a GeoDataFrame from graph in 0.49 seconds
+2017-07-28 16:38:28,714 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-51 in 0.39 seconds
+2017-07-28 16:38:34,470 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-51 in 5.63 seconds
+2017-07-28 16:38:34,674 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.20 seconds
+2017-07-28 16:38:43,085 INFO osmnx Rebuilt projected graph in 8.41 seconds
+2017-07-28 16:38:44,055 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:38:44,055 INFO osmnx Created bounding box 2000 meters in each direction from (31.238865, 121.479264) and projected it: 3459071.54391,3455071.54391,357176.545351,353176.545351
+2017-07-28 16:38:44,055 INFO osmnx Begin plotting the graph...
+2017-07-28 16:38:44,490 INFO osmnx Drew the graph edges in 0.38 seconds
+2017-07-28 16:38:45,000 INFO osmnx Saved the figure to disk in 0.21 seconds
+2017-07-28 16:43:38,673 INFO osmnx Configured osmnx
+2017-07-28 16:43:38,698 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.02 seconds
+2017-07-28 16:43:38,703 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:43:38,703 INFO osmnx Created bounding box 2400.0 meters in each direction from (40.124301, 124.400948): 40.1459175409,40.1026843741,124.429106773,124.372788748
+2017-07-28 16:43:38,707 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:43:38,710 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:43:38,710 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:43:39,211 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:43:39,211 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](40.10268437,124.37278875,40.14591754,124.42910677);>;);out;'}"
+2017-07-28 16:43:40,010 INFO osmnx Downloaded 148.6KB from www.overpass-api.de in 0.80 seconds
+2017-07-28 16:43:40,025 INFO osmnx Saved response to cache file "cache/e99d4f8d9427394468a0a866fa673e43.json"
+2017-07-28 16:43:40,025 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.31 seconds
+2017-07-28 16:43:40,026 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:43:40,108 INFO osmnx Graph was not connected, retained only the largest weakly connected component (1,046 of 1,119 total nodes) in 0.07 seconds
+2017-07-28 16:43:40,111 INFO osmnx Created graph with 1,046 nodes and 2,214 edges in 0.09 seconds
+2017-07-28 16:43:40,130 INFO osmnx Added edge lengths to graph in 0.02 seconds
+2017-07-28 16:43:40,197 INFO osmnx Truncated graph by bounding box in 0.07 seconds
+2017-07-28 16:43:40,200 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:43:40,257 INFO osmnx Graph was not connected, retained only the largest weakly connected component (779 of 784 total nodes) in 0.06 seconds
+2017-07-28 16:43:40,260 INFO osmnx graph_from_bbox() returning graph with 779 nodes and 1,741 edges
+2017-07-28 16:43:40,263 INFO osmnx graph_from_point() returning graph with 779 nodes and 1,741 edges
+2017-07-28 16:43:40,265 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:43:40,334 INFO osmnx Identified 406 edge endpoints in 0.02 seconds
+2017-07-28 16:43:40,338 INFO osmnx Constructed all paths to simplify in 0.00 seconds
+2017-07-28 16:43:40,456 INFO osmnx Simplified graph (from 779 to 406 nodes and from 1,741 to 1,089 edges) in 0.12 seconds
+2017-07-28 16:43:40,536 INFO osmnx Created a GeoDataFrame from graph in 0.04 seconds
+2017-07-28 16:43:40,566 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-51 in 0.03 seconds
+2017-07-28 16:43:40,665 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-51 in 0.09 seconds
+2017-07-28 16:43:40,683 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.02 seconds
+2017-07-28 16:43:41,131 INFO osmnx Rebuilt projected graph in 0.45 seconds
+2017-07-28 16:43:41,217 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:43:41,217 INFO osmnx Created bounding box 2000 meters in each direction from (40.124301, 124.400948) and projected it: 4444494.14641,4440494.14641,621369.425347,617369.425347
+2017-07-28 16:43:41,217 INFO osmnx Begin plotting the graph...
+2017-07-28 16:43:41,293 INFO osmnx Drew the graph edges in 0.03 seconds
+2017-07-28 16:43:41,428 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 16:46:40,806 INFO osmnx Configured osmnx
+2017-07-28 16:46:40,823 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.01 seconds
+2017-07-28 16:46:40,828 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:46:40,828 INFO osmnx Created bounding box 2400.0 meters in each direction from (51.505468, -0.075366): 51.5270199373,51.4839159566,-0.0408320234436,-0.109901692528
+2017-07-28 16:46:40,832 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2017-07-28 16:46:40,835 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:46:40,835 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:46:41,229 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:46:41,229 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](51.48391596,-0.10990169,51.52701994,-0.04083202);>;);out;'}"
+2017-07-28 16:46:43,236 INFO osmnx Downloaded 5,789.0KB from www.overpass-api.de in 2.01 seconds
+2017-07-28 16:46:43,736 INFO osmnx Saved response to cache file "cache/52b6209fcbc9a664ca5d090a7f6c9d94.json"
+2017-07-28 16:46:43,737 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 2.90 seconds
+2017-07-28 16:46:43,740 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:46:47,414 INFO osmnx Graph was not connected, retained only the largest weakly connected component (31,713 of 32,285 total nodes) in 2.79 seconds
+2017-07-28 16:46:47,510 INFO osmnx Created graph with 31,713 nodes and 65,691 edges in 3.77 seconds
+2017-07-28 16:46:48,250 INFO osmnx Added edge lengths to graph in 0.74 seconds
+2017-07-28 16:46:50,621 INFO osmnx Truncated graph by bounding box in 2.36 seconds
+2017-07-28 16:46:50,721 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:46:53,469 INFO osmnx Graph was not connected, retained only the largest weakly connected component (30,550 of 30,657 total nodes) in 2.75 seconds
+2017-07-28 16:46:53,608 INFO osmnx graph_from_bbox() returning graph with 30,550 nodes and 63,370 edges
+2017-07-28 16:46:53,776 INFO osmnx graph_from_point() returning graph with 30,550 nodes and 63,370 edges
+2017-07-28 16:46:53,979 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:46:57,003 INFO osmnx Identified 15,075 edge endpoints in 0.76 seconds
+2017-07-28 16:46:57,131 INFO osmnx Constructed all paths to simplify in 0.13 seconds
+2017-07-28 16:47:00,292 INFO osmnx Simplified graph (from 30,550 to 15,075 nodes and from 63,370 to 35,951 edges) in 3.16 seconds
+2017-07-28 16:47:03,765 INFO osmnx Created a GeoDataFrame from graph in 1.42 seconds
+2017-07-28 16:47:04,865 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-30 in 1.10 seconds
+2017-07-28 16:47:16,966 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-30 in 11.85 seconds
+2017-07-28 16:47:17,579 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.61 seconds
+2017-07-28 16:47:42,130 INFO osmnx Rebuilt projected graph in 24.55 seconds
+2017-07-28 16:47:45,200 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2017-07-28 16:47:45,200 INFO osmnx Created bounding box 2000 meters in each direction from (51.505468, -0.075366) and projected it: 5712093.1202,5708093.1202,704962.774545,700962.774545
+2017-07-28 16:47:45,200 INFO osmnx Begin plotting the graph...
+2017-07-28 16:47:46,187 INFO osmnx Drew the graph edges in 0.92 seconds
+2017-07-28 16:47:47,417 INFO osmnx Saved the figure to disk in 0.44 seconds
+2017-07-28 16:52:00,996 INFO osmnx Configured osmnx
+2017-07-28 16:52:01,013 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-37 in 0.01 seconds
+2017-07-28 16:52:01,017 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:52:01,017 INFO osmnx Created bounding box 2400.0 meters in each direction from (55.756398, 37.621382): 55.7779564382,55.7348394788,37.6596126323,37.5831524015
+2017-07-28 16:52:01,022 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-37 in 0.00 seconds
+2017-07-28 16:52:01,025 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:52:01,025 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:52:01,493 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:52:01,493 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](55.73483948,37.58315240,55.77795644,37.65961263);>;);out;'}"
+2017-07-28 16:52:03,987 INFO osmnx Downloaded 10,049.4KB from www.overpass-api.de in 2.49 seconds
+2017-07-28 16:52:04,839 INFO osmnx Saved response to cache file "cache/b8b2bdddba448ea7f892b5e2ddc303dd.json"
+2017-07-28 16:52:04,842 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 3.82 seconds
+2017-07-28 16:52:04,842 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:52:11,286 INFO osmnx Graph was not connected, retained only the largest weakly connected component (56,548 of 57,426 total nodes) in 4.71 seconds
+2017-07-28 16:52:11,456 INFO osmnx Created graph with 56,548 nodes and 122,843 edges in 6.61 seconds
+2017-07-28 16:52:12,996 INFO osmnx Added edge lengths to graph in 1.54 seconds
+2017-07-28 16:52:17,476 INFO osmnx Truncated graph by bounding box in 4.46 seconds
+2017-07-28 16:52:17,648 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:52:23,092 INFO osmnx Graph was not connected, retained only the largest weakly connected component (54,487 of 54,516 total nodes) in 5.44 seconds
+2017-07-28 16:52:23,328 INFO osmnx graph_from_bbox() returning graph with 54,487 nodes and 118,978 edges
+2017-07-28 16:52:23,447 INFO osmnx graph_from_point() returning graph with 54,487 nodes and 118,978 edges
+2017-07-28 16:52:23,809 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:52:29,457 INFO osmnx Identified 28,607 edge endpoints in 1.40 seconds
+2017-07-28 16:52:29,681 INFO osmnx Constructed all paths to simplify in 0.22 seconds
+2017-07-28 16:52:35,091 INFO osmnx Simplified graph (from 54,487 to 28,607 nodes and from 118,978 to 71,503 edges) in 5.41 seconds
+2017-07-28 16:52:42,127 INFO osmnx Created a GeoDataFrame from graph in 3.16 seconds
+2017-07-28 16:52:44,250 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-37 in 2.12 seconds
+2017-07-28 16:53:26,094 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-37 in 41.38 seconds
+2017-07-28 16:53:27,196 INFO osmnx Extracted projected node geometries from GeoDataFrame in 1.10 seconds
+2017-07-28 16:54:11,861 INFO osmnx Rebuilt projected graph in 44.66 seconds
+2017-07-28 16:54:17,155 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-37 in 0.00 seconds
+2017-07-28 16:54:17,155 INFO osmnx Created bounding box 2000 meters in each direction from (55.756398, 37.621382) and projected it: 6181828.39617,6177828.39617,415481.622674,411481.622674
+2017-07-28 16:54:17,157 INFO osmnx Begin plotting the graph...
+2017-07-28 16:54:19,341 INFO osmnx Drew the graph edges in 2.10 seconds
+2017-07-28 16:54:21,565 INFO osmnx Saved the figure to disk in 0.83 seconds
+2017-07-28 16:59:55,082 INFO osmnx Configured osmnx
+2017-07-28 16:59:55,105 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.02 seconds
+2017-07-28 16:59:55,108 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:59:55,108 INFO osmnx Created bounding box 2400.0 meters in each direction from (37.472481, 121.62538): 37.4941076174,37.4508542997,121.65251479,121.598245633
+2017-07-28 16:59:55,111 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:59:55,115 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 16:59:55,115 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 16:59:55,519 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 16:59:55,520 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](37.45085430,121.59824563,37.49410762,121.65251479);>;);out;'}"
+2017-07-28 16:59:56,065 INFO osmnx Downloaded 29.6KB from www.overpass-api.de in 0.54 seconds
+2017-07-28 16:59:56,069 INFO osmnx Saved response to cache file "cache/d0c3093c97f9eb6c6c45baa716ad26dd.json"
+2017-07-28 16:59:56,069 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.95 seconds
+2017-07-28 16:59:56,069 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 16:59:56,086 INFO osmnx Graph was not connected, retained only the largest weakly connected component (237 of 265 total nodes) in 0.01 seconds
+2017-07-28 16:59:56,088 INFO osmnx Created graph with 237 nodes and 492 edges in 0.02 seconds
+2017-07-28 16:59:56,107 INFO osmnx Added edge lengths to graph in 0.02 seconds
+2017-07-28 16:59:56,121 INFO osmnx Truncated graph by bounding box in 0.01 seconds
+2017-07-28 16:59:56,121 INFO osmnx Removed 0 isolated nodes
+2017-07-28 16:59:56,121 INFO osmnx graph_from_bbox() returning graph with 191 nodes and 398 edges
+2017-07-28 16:59:56,122 INFO osmnx graph_from_point() returning graph with 191 nodes and 398 edges
+2017-07-28 16:59:56,122 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 16:59:56,138 INFO osmnx Identified 26 edge endpoints in 0.01 seconds
+2017-07-28 16:59:56,138 INFO osmnx Constructed all paths to simplify in 0.00 seconds
+2017-07-28 16:59:56,157 INFO osmnx Simplified graph (from 191 to 26 nodes and from 398 to 68 edges) in 0.02 seconds
+2017-07-28 16:59:56,167 INFO osmnx Created a GeoDataFrame from graph in 0.01 seconds
+2017-07-28 16:59:56,171 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-51 in 0.00 seconds
+2017-07-28 16:59:56,197 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-51 in 0.02 seconds
+2017-07-28 16:59:56,200 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.00 seconds
+2017-07-28 16:59:56,269 INFO osmnx Rebuilt projected graph in 0.07 seconds
+2017-07-28 16:59:56,289 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 16:59:56,290 INFO osmnx Created bounding box 2000 meters in each direction from (37.472481, 121.62538) and projected it: 4150175.49271,4146175.49271,380449.601272,376449.601272
+2017-07-28 16:59:56,290 INFO osmnx Begin plotting the graph...
+2017-07-28 16:59:56,368 INFO osmnx Drew the graph edges in 0.01 seconds
+2017-07-28 16:59:56,490 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 17:03:52,431 INFO osmnx Configured osmnx
+2017-07-28 17:03:52,450 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.02 seconds
+2017-07-28 17:03:52,454 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:03:52,454 INFO osmnx Created bounding box 2400.0 meters in each direction from (37.356137, 120.134956): 37.3777431671,37.3345307383,120.162022934,120.107889943
+2017-07-28 17:03:52,459 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 17:03:52,461 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:03:52,463 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 17:03:52,888 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 17:03:52,888 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](37.33453074,120.10788994,37.37774317,120.16202293);>;);out;'}"
+2017-07-28 17:03:53,496 INFO osmnx Downloaded 7.7KB from www.overpass-api.de in 0.61 seconds
+2017-07-28 17:03:53,497 INFO osmnx Saved response to cache file "cache/ac368cb864bf1877e2f5b0b5c0438bf0.json"
+2017-07-28 17:03:53,499 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.04 seconds
+2017-07-28 17:03:53,499 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 17:03:53,500 INFO osmnx Created graph with 71 nodes and 140 edges in 0.00 seconds
+2017-07-28 17:03:53,507 INFO osmnx Added edge lengths to graph in 0.01 seconds
+2017-07-28 17:03:53,513 INFO osmnx Truncated graph by bounding box in 0.00 seconds
+2017-07-28 17:03:53,513 INFO osmnx Removed 0 isolated nodes
+2017-07-28 17:03:53,513 INFO osmnx graph_from_bbox() returning graph with 30 nodes and 58 edges
+2017-07-28 17:03:53,515 INFO osmnx graph_from_point() returning graph with 30 nodes and 58 edges
+2017-07-28 17:03:53,515 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 17:03:53,516 INFO osmnx Identified 4 edge endpoints in 0.00 seconds
+2017-07-28 17:03:53,517 INFO osmnx Constructed all paths to simplify in 0.00 seconds
+2017-07-28 17:03:53,520 INFO osmnx Simplified graph (from 30 to 4 nodes and from 58 to 6 edges) in 0.00 seconds
+2017-07-28 17:03:53,525 INFO osmnx Created a GeoDataFrame from graph in 0.00 seconds
+2017-07-28 17:03:53,526 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-51 in 0.00 seconds
+2017-07-28 17:03:53,532 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-51 in 0.00 seconds
+2017-07-28 17:03:53,533 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.00 seconds
+2017-07-28 17:03:53,540 INFO osmnx Rebuilt projected graph in 0.01 seconds
+2017-07-28 17:03:53,546 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-51 in 0.00 seconds
+2017-07-28 17:03:53,546 INFO osmnx Created bounding box 2000 meters in each direction from (37.356137, 120.134956) and projected it: 4140232.42131,4136232.42131,248245.36247,244245.36247
+2017-07-28 17:03:53,548 INFO osmnx Begin plotting the graph...
+2017-07-28 17:03:53,598 INFO osmnx Drew the graph edges in 0.00 seconds
+2017-07-28 17:03:53,671 INFO osmnx Saved the figure to disk in 0.06 seconds
+2017-07-28 17:06:00,292 INFO osmnx Configured osmnx
+2017-07-28 17:06:00,296 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-48 in 0.00 seconds
+2017-07-28 17:06:00,301 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:06:00,301 INFO osmnx Created bounding box 2400.0 meters in each direction from (29.568312, 106.584763): 29.5899641274,29.5466597985,106.609530722,106.559994909
+2017-07-28 17:06:00,305 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-48 in 0.00 seconds
+2017-07-28 17:06:00,309 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:06:00,309 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 17:06:00,721 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 17:06:00,721 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](29.54665980,106.55999491,29.58996413,106.60953072);>;);out;'}"
+2017-07-28 17:06:02,230 INFO osmnx Downloaded 500.2KB from www.overpass-api.de in 1.51 seconds
+2017-07-28 17:06:02,276 INFO osmnx Saved response to cache file "cache/9e928af711eeb6f4defdcc1af9cf9a4d.json"
+2017-07-28 17:06:02,278 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.97 seconds
+2017-07-28 17:06:02,278 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 17:06:02,532 INFO osmnx Graph was not connected, retained only the largest weakly connected component (3,938 of 4,079 total nodes) in 0.20 seconds
+2017-07-28 17:06:02,543 INFO osmnx Created graph with 3,938 nodes and 6,151 edges in 0.26 seconds
+2017-07-28 17:06:02,585 INFO osmnx Added edge lengths to graph in 0.04 seconds
+2017-07-28 17:06:02,793 INFO osmnx Truncated graph by bounding box in 0.21 seconds
+2017-07-28 17:06:02,802 INFO osmnx Removed 0 isolated nodes
+2017-07-28 17:06:02,976 INFO osmnx Graph was not connected, retained only the largest weakly connected component (3,108 of 3,136 total nodes) in 0.17 seconds
+2017-07-28 17:06:02,987 INFO osmnx graph_from_bbox() returning graph with 3,108 nodes and 4,908 edges
+2017-07-28 17:06:02,993 INFO osmnx graph_from_point() returning graph with 3,108 nodes and 4,908 edges
+2017-07-28 17:06:03,118 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 17:06:03,365 INFO osmnx Identified 718 edge endpoints in 0.09 seconds
+2017-07-28 17:06:03,380 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2017-07-28 17:06:03,648 INFO osmnx Simplified graph (from 3,108 to 718 nodes and from 4,908 to 1,330 edges) in 0.27 seconds
+2017-07-28 17:06:03,802 INFO osmnx Created a GeoDataFrame from graph in 0.07 seconds
+2017-07-28 17:06:03,855 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-48 in 0.05 seconds
+2017-07-28 17:06:04,582 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-48 in 0.72 seconds
+2017-07-28 17:06:04,612 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.03 seconds
+2017-07-28 17:06:05,926 INFO osmnx Rebuilt projected graph in 1.31 seconds
+2017-07-28 17:06:06,056 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-48 in 0.00 seconds
+2017-07-28 17:06:06,058 INFO osmnx Created bounding box 2000 meters in each direction from (29.568312, 106.584763) and projected it: 3274000.2006,3270000.2006,655514.031009,651514.031009
+2017-07-28 17:06:06,058 INFO osmnx Begin plotting the graph...
+2017-07-28 17:06:06,167 INFO osmnx Drew the graph edges in 0.06 seconds
+2017-07-28 17:06:06,338 INFO osmnx Saved the figure to disk in 0.12 seconds
+2017-07-28 17:08:53,664 INFO osmnx Configured osmnx
+2017-07-28 17:08:53,668 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 17:08:53,671 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:08:53,673 INFO osmnx Created bounding box 2400.0 meters in each direction from (42.911968, 129.51879): 42.9335796223,42.8903562952,129.548191585,129.489388215
+2017-07-28 17:08:53,676 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 17:08:53,678 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:08:53,678 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 17:08:55,104 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 17:08:55,104 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](42.89035630,129.48938821,42.93357962,129.54819158);>;);out;'}"
+2017-07-28 17:08:56,055 INFO osmnx Downloaded 133.8KB from www.overpass-api.de in 0.95 seconds
+2017-07-28 17:08:56,085 INFO osmnx Saved response to cache file "cache/68a6eeca1eb93bea5d9196a069972c78.json"
+2017-07-28 17:08:56,085 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 2.40 seconds
+2017-07-28 17:08:56,085 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 17:08:56,157 INFO osmnx Graph was not connected, retained only the largest weakly connected component (1,052 of 1,056 total nodes) in 0.06 seconds
+2017-07-28 17:08:56,160 INFO osmnx Created graph with 1,052 nodes and 2,074 edges in 0.08 seconds
+2017-07-28 17:08:56,176 INFO osmnx Added edge lengths to graph in 0.02 seconds
+2017-07-28 17:08:56,233 INFO osmnx Truncated graph by bounding box in 0.06 seconds
+2017-07-28 17:08:56,234 INFO osmnx Removed 0 isolated nodes
+2017-07-28 17:08:56,236 INFO osmnx graph_from_bbox() returning graph with 673 nodes and 1,376 edges
+2017-07-28 17:08:56,237 INFO osmnx graph_from_point() returning graph with 673 nodes and 1,376 edges
+2017-07-28 17:08:56,240 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 17:08:56,296 INFO osmnx Identified 328 edge endpoints in 0.02 seconds
+2017-07-28 17:08:56,299 INFO osmnx Constructed all paths to simplify in 0.00 seconds
+2017-07-28 17:08:56,359 INFO osmnx Simplified graph (from 673 to 328 nodes and from 1,376 to 805 edges) in 0.06 seconds
+2017-07-28 17:08:56,433 INFO osmnx Created a GeoDataFrame from graph in 0.04 seconds
+2017-07-28 17:08:56,464 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-52 in 0.03 seconds
+2017-07-28 17:08:56,605 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-52 in 0.14 seconds
+2017-07-28 17:08:56,622 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.02 seconds
+2017-07-28 17:08:57,046 INFO osmnx Rebuilt projected graph in 0.42 seconds
+2017-07-28 17:08:57,099 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 17:08:57,101 INFO osmnx Created bounding box 2000 meters in each direction from (42.911968, 129.51879) and projected it: 4753169.60197,4749169.60197,544346.078358,540346.078358
+2017-07-28 17:08:57,101 INFO osmnx Begin plotting the graph...
+2017-07-28 17:08:57,165 INFO osmnx Drew the graph edges in 0.02 seconds
+2017-07-28 17:08:57,283 INFO osmnx Saved the figure to disk in 0.09 seconds
+2017-07-28 17:19:13,217 INFO osmnx Configured osmnx
+2017-07-28 17:19:13,259 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-40 in 0.04 seconds
+2017-07-28 17:19:13,262 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:19:13,263 INFO osmnx Created bounding box 2400.0 meters in each direction from (25.115668, 55.136752): 25.1373307387,25.094005194,55.160545519,55.1129588618
+2017-07-28 17:19:13,266 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-40 in 0.00 seconds
+2017-07-28 17:19:13,269 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:19:13,269 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 17:19:13,713 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 17:19:13,713 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](25.09400519,55.11295886,25.13733074,55.16054552);>;);out;'}"
+2017-07-28 17:19:15,098 INFO osmnx Downloaded 590.9KB from www.overpass-api.de in 1.39 seconds
+2017-07-28 17:19:15,148 INFO osmnx Saved response to cache file "cache/48268f3425f1e86c56419a4539e23045.json"
+2017-07-28 17:19:15,148 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 1.88 seconds
+2017-07-28 17:19:15,150 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 17:19:15,525 INFO osmnx Graph was not connected, retained only the largest weakly connected component (3,457 of 4,341 total nodes) in 0.26 seconds
+2017-07-28 17:19:15,532 INFO osmnx Created graph with 3,457 nodes and 5,931 edges in 0.38 seconds
+2017-07-28 17:19:15,568 INFO osmnx Added edge lengths to graph in 0.04 seconds
+2017-07-28 17:19:15,786 INFO osmnx Truncated graph by bounding box in 0.22 seconds
+2017-07-28 17:19:15,795 INFO osmnx Removed 0 isolated nodes
+2017-07-28 17:19:15,987 INFO osmnx Graph was not connected, retained only the largest weakly connected component (3,023 of 3,270 total nodes) in 0.19 seconds
+2017-07-28 17:19:15,996 INFO osmnx graph_from_bbox() returning graph with 3,023 nodes and 5,169 edges
+2017-07-28 17:19:16,006 INFO osmnx graph_from_point() returning graph with 3,023 nodes and 5,169 edges
+2017-07-28 17:19:16,013 INFO osmnx Begin topologically simplifying the graph...
+2017-07-28 17:19:16,302 INFO osmnx Identified 681 edge endpoints in 0.08 seconds
+2017-07-28 17:19:16,319 INFO osmnx Constructed all paths to simplify in 0.02 seconds
+2017-07-28 17:19:16,581 INFO osmnx Simplified graph (from 3,023 to 681 nodes and from 5,169 to 1,329 edges) in 0.26 seconds
+2017-07-28 17:19:16,723 INFO osmnx Created a GeoDataFrame from graph in 0.06 seconds
+2017-07-28 17:19:16,773 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-40 in 0.05 seconds
+2017-07-28 17:19:17,364 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-40 in 0.58 seconds
+2017-07-28 17:19:17,391 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.03 seconds
+2017-07-28 17:19:18,667 INFO osmnx Rebuilt projected graph in 1.27 seconds
+2017-07-28 17:19:18,785 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-40 in 0.00 seconds
+2017-07-28 17:19:18,786 INFO osmnx Created bounding box 2000 meters in each direction from (25.115668, 55.136752) and projected it: 2781052.44816,2777052.44816,314135.258917,310135.258917
+2017-07-28 17:19:18,786 INFO osmnx Begin plotting the graph...
+2017-07-28 17:19:18,881 INFO osmnx Drew the graph edges in 0.05 seconds
+2017-07-28 17:19:19,036 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 17:23:45,726 INFO osmnx Configured osmnx
+2017-07-28 17:23:45,730 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-31 in 0.00 seconds
+2017-07-28 17:23:45,737 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:23:45,737 INFO osmnx Created bounding box 2400.0 meters in each direction from (0, 0): 0.0216835944982,-0.0216835944982,0.0215386493765,-0.0215382221811
+2017-07-28 17:23:45,742 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-31 in 0.00 seconds
+2017-07-28 17:23:45,746 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 17:23:45,746 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2017-07-28 17:23:46,118 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 17:23:46,118 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["area"!~"yes"]["highway"!~"proposed|construction|abandoned|platform|raceway"]["service"!~"private"]["access"!~"private"](-0.02168359,-0.02153822,0.02168359,0.02153865);>;);out;'}"
+2017-07-28 17:23:46,671 INFO osmnx Downloaded 0.3KB from www.overpass-api.de in 0.55 seconds
+2017-07-28 17:23:46,674 INFO osmnx Saved response to cache file "cache/2c66c654ff3fbfd1481dc75539365d59.json"
+2017-07-28 17:23:46,674 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.93 seconds
+2017-07-28 17:23:46,674 INFO osmnx Creating networkx graph from downloaded OSM data...
+2017-07-28 18:00:46,519 INFO osmnx Configured osmnx
+2017-07-28 18:01:29,352 INFO osmnx Configured osmnx
+2017-07-28 18:01:29,375 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.02 seconds
+2017-07-28 18:01:29,378 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:01:29,380 INFO osmnx Created bounding box 2000 meters in each direction from (42.911968, 129.51879): 42.929977691,42.8939582517,129.543291335,129.494288526
+2017-07-28 18:01:29,382 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:01:29,385 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:01:29,387 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:01:29,770 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:01:29,772 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.89395825,129.49428853,42.92997769,129.54329134);(._;>;););(relation["building"](42.89395825,129.49428853,42.92997769,129.54329134);(._;>;);));out;'}"
+2017-07-28 18:01:30,611 INFO osmnx Downloaded 57.9KB from www.overpass-api.de in 0.84 seconds
+2017-07-28 18:01:30,618 INFO osmnx Saved response to cache file "cache/ea40f384efffb919dd8f8da5f017b697.json"
+2017-07-28 18:01:30,618 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.23 seconds
+2017-07-28 18:01:41,302 INFO osmnx Configured osmnx
+2017-07-28 18:01:41,305 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:01:41,309 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:01:41,309 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51879): 42.9164704281,42.9074655683,129.524915347,129.512664644
+2017-07-28 18:01:41,312 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:01:41,315 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:01:41,315 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:01:41,677 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:01:41,677 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.90746557,129.51266464,42.91647043,129.52491535);(._;>;););(relation["building"](42.90746557,129.51266464,42.91647043,129.52491535);(._;>;);));out;'}"
+2017-07-28 18:01:42,224 INFO osmnx Downloaded 8.2KB from www.overpass-api.de in 0.55 seconds
+2017-07-28 18:01:42,226 INFO osmnx Saved response to cache file "cache/bd165b8851b1db41686b9df1aeb4146a.json"
+2017-07-28 18:01:42,226 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.91 seconds
+2017-07-28 18:02:08,194 INFO osmnx Configured osmnx
+2017-07-28 18:02:08,197 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:08,200 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:08,201 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51879): 42.9164704281,42.9074655683,129.524915347,129.512664644
+2017-07-28 18:02:08,204 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:08,207 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:08,207 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:02:08,217 INFO osmnx Retrieved response from cache file "cache/bd165b8851b1db41686b9df1aeb4146a.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28way%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%29%3Bout%3B"
+2017-07-28 18:02:08,217 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.01 seconds
+2017-07-28 18:02:23,398 INFO osmnx Configured osmnx
+2017-07-28 18:02:23,401 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:23,405 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:23,405 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51879): 42.9164704281,42.9074655683,129.524915347,129.512664644
+2017-07-28 18:02:23,408 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:23,413 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:23,413 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:02:23,414 INFO osmnx Retrieved response from cache file "cache/bd165b8851b1db41686b9df1aeb4146a.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28way%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%29%3Bout%3B"
+2017-07-28 18:02:23,414 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-28 18:02:50,437 INFO osmnx Configured osmnx
+2017-07-28 18:02:50,440 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:50,444 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:50,446 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51879): 42.9164704281,42.9074655683,129.524915347,129.512664644
+2017-07-28 18:02:50,448 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:02:50,453 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:02:50,453 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:02:50,454 INFO osmnx Retrieved response from cache file "cache/bd165b8851b1db41686b9df1aeb4146a.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28way%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%29%3Bout%3B"
+2017-07-28 18:02:50,454 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-28 18:05:14,816 INFO osmnx Configured osmnx
+2017-07-28 18:05:14,819 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:05:14,823 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:05:14,825 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51879): 42.9164704281,42.9074655683,129.524915347,129.512664644
+2017-07-28 18:05:14,828 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:05:14,831 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:05:14,832 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:05:14,832 INFO osmnx Retrieved response from cache file "cache/bd165b8851b1db41686b9df1aeb4146a.json" for URL "http://www.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28way%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22building%22%5D%2842.90746557%2C129.51266464%2C42.91647043%2C129.52491535%29%3B%28._%3B%3E%3B%29%3B%29%29%3Bout%3B"
+2017-07-28 18:05:14,834 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.00 seconds
+2017-07-28 18:05:26,496 INFO osmnx Configured osmnx
+2017-07-28 18:05:26,500 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:05:26,503 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:05:26,503 INFO osmnx Created bounding box 500 meters in each direction from (42.911968, 129.51878): 42.9164704281,42.9074655683,129.524905347,129.512654644
+2017-07-28 18:05:26,506 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:05:26,510 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:05:26,510 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:05:26,878 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:05:26,878 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.90746557,129.51265464,42.91647043,129.52490535);(._;>;););(relation["building"](42.90746557,129.51265464,42.91647043,129.52490535);(._;>;);));out;'}"
+2017-07-28 18:05:27,487 INFO osmnx Downloaded 8.2KB from www.overpass-api.de in 0.61 seconds
+2017-07-28 18:05:27,490 INFO osmnx Saved response to cache file "cache/575d241912e5d15e5a7748af46d13522.json"
+2017-07-28 18:05:27,490 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 0.98 seconds
+2017-07-28 18:16:34,815 INFO osmnx Configured osmnx
+2017-07-28 18:16:34,898 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.08 seconds
+2017-07-28 18:16:34,903 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:16:34,904 INFO osmnx Created bounding box 1000 meters in each direction from (42.911968, 129.51879): 42.9209728526,42.902963133,129.531040685,129.50653928
+2017-07-28 18:16:34,907 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:16:34,910 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:16:34,910 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:16:35,411 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:16:35,411 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.90296313,129.50653928,42.92097285,129.53104069);(._;>;););(relation["building"](42.90296313,129.50653928,42.92097285,129.53104069);(._;>;);));out;'}"
+2017-07-28 18:16:36,246 INFO osmnx Downloaded 28.1KB from www.overpass-api.de in 0.84 seconds
+2017-07-28 18:16:36,250 INFO osmnx Saved response to cache file "cache/4cbdaa4f9eecf61bb9b49217287cd1bd.json"
+2017-07-28 18:16:36,250 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.34 seconds
+2017-07-28 18:16:36,269 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-52 in 0.01 seconds
+2017-07-28 18:16:36,273 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-52 in 0.00 seconds
+2017-07-28 18:16:36,273 INFO osmnx Created bounding box 1000 meters in each direction from (42.911968, 129.51879) and projected it: 4752169.60197,4750169.60197,543346.078358,541346.078358
+2017-07-28 18:16:37,130 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 18:37:57,625 INFO osmnx Configured osmnx
+2017-07-28 18:37:57,828 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.07 seconds
+2017-07-28 18:37:57,832 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:37:57,832 INFO osmnx Created bounding box 2000 meters in each direction from (35.671358, 139.765138): 35.6893866483,35.6533292957,139.787232403,139.743043843
+2017-07-28 18:37:57,835 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:37:57,838 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:37:57,838 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:37:58,405 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:37:58,405 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.65332930,139.74304384,35.68938665,139.78723240);(._;>;););(relation["building"](35.65332930,139.74304384,35.68938665,139.78723240);(._;>;);));out;'}"
+2017-07-28 18:38:00,846 INFO osmnx Downloaded 9,998.7KB from www.overpass-api.de in 2.44 seconds
+2017-07-28 18:38:01,661 INFO osmnx Saved response to cache file "cache/d7e815b7b56b4c32bfb3cb90f7bf0dac.json"
+2017-07-28 18:38:01,664 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 3.83 seconds
+2017-07-28 18:38:01,868 INFO osmnx Polygon has invalid geometry: [2912950546L, 1588177770]
+2017-07-28 18:38:01,875 INFO osmnx Polygon has invalid geometry: [1588257688, 1588257546]
+2017-07-28 18:38:01,881 INFO osmnx Polygon has invalid geometry: [1589169098, 1589169100]
+2017-07-28 18:38:01,884 INFO osmnx Polygon has invalid geometry: [1589169111, 1589169135]
+2017-07-28 18:38:02,114 INFO osmnx Polygon has invalid geometry: [3682775669L, 559302015]
+2017-07-28 18:38:02,236 INFO osmnx Polygon has invalid geometry: [2565959681L, 2565959682L]
+2017-07-28 18:38:02,236 INFO osmnx Polygon has invalid geometry: [2565959686L, 2565959685L]
+2017-07-28 18:38:02,246 INFO osmnx Polygon has invalid geometry: [2914063356L, 2914063363L]
+2017-07-28 18:38:02,246 INFO osmnx Polygon has invalid geometry: [2914125891L, 2914125890L]
+2017-07-28 18:38:02,247 INFO osmnx Polygon has invalid geometry: [2914127401L, 2914125899L]
+2017-07-28 18:38:02,247 INFO osmnx Polygon has invalid geometry: [2914125858L, 2914125856L]
+2017-07-28 18:38:02,247 INFO osmnx Polygon has invalid geometry: [1059532205, 1059532121]
+2017-07-28 18:38:02,247 INFO osmnx Polygon has invalid geometry: [2915694400L, 2915694397L]
+2017-07-28 18:38:02,249 INFO osmnx Polygon has invalid geometry: [2915694395L, 2915694394L]
+2017-07-28 18:38:02,249 INFO osmnx Polygon has invalid geometry: [2915694397L, 2915694395L]
+2017-07-28 18:38:02,249 INFO osmnx Polygon has invalid geometry: [2915695531L, 2915695544L]
+2017-07-28 18:38:02,305 INFO osmnx Polygon has invalid geometry: [1589169141, 1589169156]
+2017-07-28 18:38:02,305 INFO osmnx Polygon has invalid geometry: [1589168922, 1589168932]
+2017-07-28 18:38:02,305 INFO osmnx Polygon has invalid geometry: [1589169174, 1589169172]
+2017-07-28 18:38:02,305 INFO osmnx Polygon has invalid geometry: [1589169229, 3110526313L]
+2017-07-28 18:38:02,305 INFO osmnx Polygon has invalid geometry: [1589169006, 1589169111]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589169196, 1589169174]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589169100, 1589169093]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589169172, 1589169199]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589168673, 1589168769]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589169137, 1589169148]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589169231, 1589169196]
+2017-07-28 18:38:02,306 INFO osmnx Polygon has invalid geometry: [1589168825, 1589169098]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589169093, 1589169137]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589169148, 1589169154]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589169133, 1589169152]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589169139, 1589169132]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589168769, 1589168828]
+2017-07-28 18:38:02,308 INFO osmnx Polygon has invalid geometry: [1589169132, 1589168889]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589168889, 3110587183L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589168919, 1589168922]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169152, 1589169141]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589168873, 3110591630L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110584371L, 3110584363L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169154, 1589169139]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110584377L, 1589169229]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169239, 3110584377L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169162, 1589169203]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169203, 1589169212]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110584363L, 3110584361L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [1589169156, 1589169162]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110584368L, 3110584371L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110584361L, 3110584368L]
+2017-07-28 18:38:02,309 INFO osmnx Polygon has invalid geometry: [3110587182L, 1589168825]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [3110587182L, 3110587183L]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [1589169043, 1589169047]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [1589169028, 1589169006]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [3110591634L, 1589169028]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [3110591633L, 1589168919]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [1589168932, 1589168893]
+2017-07-28 18:38:02,311 INFO osmnx Polygon has invalid geometry: [1589168971, 1589169071]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589168893, 1589168971]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169071, 1589169043]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169116, 1589169187]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169135, 1589169073]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169187, 1589169169]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169051, 3110591634L]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169150, 1589169133]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169073, 1589169051]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169049, 1589169070]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169047, 1589169059]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169059, 1589169049]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169169, 1589169150]
+2017-07-28 18:38:02,312 INFO osmnx Polygon has invalid geometry: [1589169070, 1589169089]
+2017-07-28 18:38:02,387 INFO osmnx Polygon has invalid geometry: [3170822029L, 3170822026L]
+2017-07-28 18:38:02,387 INFO osmnx Polygon has invalid geometry: [3170822037L, 1490261071]
+2017-07-28 18:38:02,387 INFO osmnx Polygon has invalid geometry: [3170822026L, 1490261065]
+2017-07-28 18:38:02,387 INFO osmnx Polygon has invalid geometry: [2035323200, 3170822029L]
+2017-07-28 18:38:02,388 INFO osmnx Polygon has invalid geometry: [3217892704L, 3217892703L]
+2017-07-28 18:38:02,388 INFO osmnx Polygon has invalid geometry: [3220841193L, 3220841191L]
+2017-07-28 18:38:02,390 INFO osmnx Polygon has invalid geometry: [2565959683L, 2565959684L]
+2017-07-28 18:38:02,390 INFO osmnx Polygon has invalid geometry: [2565959684L, 2565959686L]
+2017-07-28 18:38:02,390 INFO osmnx Polygon has invalid geometry: [2565959679L, 2565959680L]
+2017-07-28 18:38:02,391 INFO osmnx Polygon has invalid geometry: [2565959665L, 2565959666L]
+2017-07-28 18:38:02,391 INFO osmnx Polygon has invalid geometry: [2565959685L, 2565959683L]
+2017-07-28 18:38:02,391 INFO osmnx Polygon has invalid geometry: [2565959682L, 2565959679L]
+2017-07-28 18:38:02,391 INFO osmnx Polygon has invalid geometry: [2565959680L, 2565959681L]
+2017-07-28 18:38:02,391 INFO osmnx Polygon has invalid geometry: [2565959673L, 2565959671L]
+2017-07-28 18:38:02,392 INFO osmnx Polygon has invalid geometry: [1588257528, 3492989538L]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257534, 3492989539L]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257612, 1596070668]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [3492989550L, 1588257539]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257750, 1588257758]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [3492989585L, 1588257688]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257546, 1588257545]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257766, 1588257755]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257554, 1588257607]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257536, 1588257538]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257742, 3492989897L]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1588257656, 3492989582L]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [3492989540L, 1588257530]
+2017-07-28 18:38:02,394 INFO osmnx Polygon has invalid geometry: [1596070668, 1588257656]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [1588257718, 1588257701]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [1588257543, 1588257540]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [1588257752, 1588257742]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [3492989910L, 1588257750]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [3492989538L, 3492989540L]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [3492989911L, 3492989910L]
+2017-07-28 18:38:02,395 INFO osmnx Polygon has invalid geometry: [1588257539, 1588257534]
+2017-07-28 18:38:02,397 INFO osmnx Polygon has invalid geometry: [3494860775L, 3494860788L]
+2017-07-28 18:38:02,398 INFO osmnx Polygon has invalid geometry: [1866774232, 3682775669L]
+2017-07-28 18:38:02,403 INFO osmnx Polygon has invalid geometry: [2915695544L, 2915695556L]
+2017-07-28 18:38:59,171 INFO osmnx Configured osmnx
+2017-07-28 18:38:59,176 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:38:59,178 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:38:59,180 INFO osmnx Created bounding box 2000 meters in each direction from (35.671332, 139.765062): 35.6893606479,35.6533032962,139.787156395,139.742967851
+2017-07-28 18:38:59,183 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:38:59,186 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:38:59,187 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:38:59,634 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:38:59,634 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.65330330,139.74296785,35.68936065,139.78715640);(._;>;););(relation["building"](35.65330330,139.74296785,35.68936065,139.78715640);(._;>;);));out;'}"
+2017-07-28 18:39:03,782 INFO osmnx Downloaded 10,012.1KB from www.overpass-api.de in 4.15 seconds
+2017-07-28 18:39:04,691 INFO osmnx Saved response to cache file "cache/0b380b5efb4ebe552dbd53ed54f08a1d.json"
+2017-07-28 18:39:04,694 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 5.51 seconds
+2017-07-28 18:39:04,851 INFO osmnx Polygon has invalid geometry: [2912950546L, 1588177770]
+2017-07-28 18:39:04,857 INFO osmnx Polygon has invalid geometry: [1588257688, 1588257546]
+2017-07-28 18:39:04,862 INFO osmnx Polygon has invalid geometry: [1589169098, 1589169100]
+2017-07-28 18:39:04,867 INFO osmnx Polygon has invalid geometry: [1589169111, 1589169135]
+2017-07-28 18:39:05,107 INFO osmnx Polygon has invalid geometry: [3682775669L, 559302015]
+2017-07-28 18:39:05,236 INFO osmnx Polygon has invalid geometry: [2565959681L, 2565959682L]
+2017-07-28 18:39:05,236 INFO osmnx Polygon has invalid geometry: [2565959686L, 2565959685L]
+2017-07-28 18:39:05,246 INFO osmnx Polygon has invalid geometry: [2914063356L, 2914063363L]
+2017-07-28 18:39:05,247 INFO osmnx Polygon has invalid geometry: [2914125891L, 2914125890L]
+2017-07-28 18:39:05,247 INFO osmnx Polygon has invalid geometry: [2914127401L, 2914125899L]
+2017-07-28 18:39:05,247 INFO osmnx Polygon has invalid geometry: [2914125858L, 2914125856L]
+2017-07-28 18:39:05,247 INFO osmnx Polygon has invalid geometry: [1059532205, 1059532121]
+2017-07-28 18:39:05,249 INFO osmnx Polygon has invalid geometry: [2915694400L, 2915694397L]
+2017-07-28 18:39:05,249 INFO osmnx Polygon has invalid geometry: [2915694395L, 2915694394L]
+2017-07-28 18:39:05,249 INFO osmnx Polygon has invalid geometry: [2915694397L, 2915694395L]
+2017-07-28 18:39:05,249 INFO osmnx Polygon has invalid geometry: [2915695531L, 2915695544L]
+2017-07-28 18:39:05,302 INFO osmnx Polygon has invalid geometry: [1589169141, 1589169156]
+2017-07-28 18:39:05,302 INFO osmnx Polygon has invalid geometry: [1589168922, 1589168932]
+2017-07-28 18:39:05,302 INFO osmnx Polygon has invalid geometry: [1589169174, 1589169172]
+2017-07-28 18:39:05,302 INFO osmnx Polygon has invalid geometry: [1589169229, 3110526313L]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169006, 1589169111]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169196, 1589169174]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169100, 1589169093]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169172, 1589169199]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589168673, 1589168769]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169137, 1589169148]
+2017-07-28 18:39:05,303 INFO osmnx Polygon has invalid geometry: [1589169231, 1589169196]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589168825, 1589169098]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169093, 1589169137]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169148, 1589169154]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169133, 1589169152]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169139, 1589169132]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589168769, 1589168828]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169132, 1589168889]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589168889, 3110587183L]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589168919, 1589168922]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169152, 1589169141]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589168873, 3110591630L]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [3110584371L, 3110584363L]
+2017-07-28 18:39:05,305 INFO osmnx Polygon has invalid geometry: [1589169154, 1589169139]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [3110584377L, 1589169229]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [1589169239, 3110584377L]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [1589169162, 1589169203]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [1589169203, 1589169212]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [3110584363L, 3110584361L]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [1589169156, 1589169162]
+2017-07-28 18:39:05,306 INFO osmnx Polygon has invalid geometry: [3110584368L, 3110584371L]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [3110584361L, 3110584368L]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [3110587182L, 1589168825]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [3110587182L, 3110587183L]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [1589169043, 1589169047]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [1589169028, 1589169006]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [3110591634L, 1589169028]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [3110591633L, 1589168919]
+2017-07-28 18:39:05,308 INFO osmnx Polygon has invalid geometry: [1589168932, 1589168893]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589168971, 1589169071]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589168893, 1589168971]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169071, 1589169043]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169116, 1589169187]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169135, 1589169073]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169187, 1589169169]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169051, 3110591634L]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169150, 1589169133]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169073, 1589169051]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169049, 1589169070]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169047, 1589169059]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169059, 1589169049]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169169, 1589169150]
+2017-07-28 18:39:05,309 INFO osmnx Polygon has invalid geometry: [1589169070, 1589169089]
+2017-07-28 18:39:05,391 INFO osmnx Polygon has invalid geometry: [3170822029L, 3170822026L]
+2017-07-28 18:39:05,391 INFO osmnx Polygon has invalid geometry: [3170822037L, 1490261071]
+2017-07-28 18:39:05,391 INFO osmnx Polygon has invalid geometry: [3170822026L, 1490261065]
+2017-07-28 18:39:05,391 INFO osmnx Polygon has invalid geometry: [2035323200, 3170822029L]
+2017-07-28 18:39:05,392 INFO osmnx Polygon has invalid geometry: [3217892704L, 3217892703L]
+2017-07-28 18:39:05,392 INFO osmnx Polygon has invalid geometry: [3220841193L, 3220841191L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959683L, 2565959684L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959684L, 2565959686L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959679L, 2565959680L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959665L, 2565959666L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959685L, 2565959683L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959682L, 2565959679L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959680L, 2565959681L]
+2017-07-28 18:39:05,394 INFO osmnx Polygon has invalid geometry: [2565959673L, 2565959671L]
+2017-07-28 18:39:05,397 INFO osmnx Polygon has invalid geometry: [1588257528, 3492989538L]
+2017-07-28 18:39:05,397 INFO osmnx Polygon has invalid geometry: [1588257534, 3492989539L]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257612, 1596070668]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [3492989550L, 1588257539]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257750, 1588257758]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [3492989585L, 1588257688]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257546, 1588257545]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257766, 1588257755]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257554, 1588257607]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257536, 1588257538]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257742, 3492989897L]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257656, 3492989582L]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [3492989540L, 1588257530]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1596070668, 1588257656]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257718, 1588257701]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257543, 1588257540]
+2017-07-28 18:39:05,398 INFO osmnx Polygon has invalid geometry: [1588257752, 1588257742]
+2017-07-28 18:39:05,400 INFO osmnx Polygon has invalid geometry: [3492989910L, 1588257750]
+2017-07-28 18:39:05,400 INFO osmnx Polygon has invalid geometry: [3492989538L, 3492989540L]
+2017-07-28 18:39:05,400 INFO osmnx Polygon has invalid geometry: [3492989911L, 3492989910L]
+2017-07-28 18:39:05,400 INFO osmnx Polygon has invalid geometry: [1588257539, 1588257534]
+2017-07-28 18:39:05,401 INFO osmnx Polygon has invalid geometry: [3494860775L, 3494860788L]
+2017-07-28 18:39:05,403 INFO osmnx Polygon has invalid geometry: [1866774232, 3682775669L]
+2017-07-28 18:39:05,405 INFO osmnx Polygon has invalid geometry: [2915695544L, 2915695556L]
+2017-07-28 18:39:36,818 INFO osmnx Configured osmnx
+2017-07-28 18:39:36,821 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:39:36,825 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:39:36,825 INFO osmnx Created bounding box 1000 meters in each direction from (35.671332, 139.765062): 35.6803463309,35.6623176551,139.776109167,139.754014894
+2017-07-28 18:39:36,828 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:39:36,832 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:39:36,832 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:39:37,243 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:39:37,243 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.66231766,139.75401489,35.68034633,139.77610917);(._;>;););(relation["building"](35.66231766,139.75401489,35.68034633,139.77610917);(._;>;);));out;'}"
+2017-07-28 18:39:41,062 INFO osmnx Downloaded 3,802.8KB from www.overpass-api.de in 3.82 seconds
+2017-07-28 18:39:41,358 INFO osmnx Saved response to cache file "cache/f077f9c7dc0469fdd831e9cc07007ac6.json"
+2017-07-28 18:39:41,358 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 4.53 seconds
+2017-07-28 18:39:41,417 INFO osmnx Polygon has invalid geometry: [1588257688, 1588257546]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257528, 3492989538L]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257534, 3492989539L]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257612, 1596070668]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [3492989550L, 1588257539]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257750, 1588257758]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [3492989585L, 1588257688]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257546, 1588257545]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257766, 1588257755]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257554, 1588257607]
+2017-07-28 18:39:41,641 INFO osmnx Polygon has invalid geometry: [1588257536, 1588257538]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1588257742, 3492989897L]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1588257656, 3492989582L]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [3492989540L, 1588257530]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1596070668, 1588257656]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1588257718, 1588257701]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1588257543, 1588257540]
+2017-07-28 18:39:41,642 INFO osmnx Polygon has invalid geometry: [1588257752, 1588257742]
+2017-07-28 18:39:41,644 INFO osmnx Polygon has invalid geometry: [3492989910L, 1588257750]
+2017-07-28 18:39:41,644 INFO osmnx Polygon has invalid geometry: [3492989538L, 3492989540L]
+2017-07-28 18:39:41,644 INFO osmnx Polygon has invalid geometry: [3492989911L, 3492989910L]
+2017-07-28 18:39:41,644 INFO osmnx Polygon has invalid geometry: [1588257539, 1588257534]
+2017-07-28 18:39:41,644 INFO osmnx Polygon has invalid geometry: [3494860775L, 3494860788L]
+2017-07-28 18:41:36,986 INFO osmnx Configured osmnx
+2017-07-28 18:41:37,002 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.01 seconds
+2017-07-28 18:41:37,006 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:41:37,006 INFO osmnx Created bounding box 1000 meters in each direction from (41.811647, 140.749926): 41.8206538711,41.8026401147,140.76196518,140.737886836
+2017-07-28 18:41:37,009 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:41:37,013 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:41:37,013 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:41:37,457 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:41:37,457 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](41.80264011,140.73788684,41.82065387,140.76196518);(._;>;););(relation["building"](41.80264011,140.73788684,41.82065387,140.76196518);(._;>;);));out;'}"
+2017-07-28 18:41:38,711 INFO osmnx Downloaded 165.1KB from www.overpass-api.de in 1.25 seconds
+2017-07-28 18:41:38,727 INFO osmnx Saved response to cache file "cache/50622ecf609a8ee9709571f2e339d54d.json"
+2017-07-28 18:41:38,727 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.71 seconds
+2017-07-28 18:41:38,861 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 0.10 seconds
+2017-07-28 18:41:38,865 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:41:38,865 INFO osmnx Created bounding box 1000 meters in each direction from (41.811647, 140.749926) and projected it: 4629894.17189,4627894.17189,480228.496077,478228.496077
+2017-07-28 18:41:40,806 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 18:41:54,428 INFO osmnx Configured osmnx
+2017-07-28 18:41:54,434 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:41:54,437 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:41:54,437 INFO osmnx Created bounding box 2000 meters in each direction from (41.811647, 140.749926): 41.8296607281,41.7936332151,140.774004374,140.725847689
+2017-07-28 18:41:54,440 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:41:54,444 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:41:54,444 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:41:54,835 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:41:54,836 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](41.79363322,140.72584769,41.82966073,140.77400437);(._;>;););(relation["building"](41.79363322,140.72584769,41.82966073,140.77400437);(._;>;);));out;'}"
+2017-07-28 18:41:56,142 INFO osmnx Downloaded 724.2KB from www.overpass-api.de in 1.31 seconds
+2017-07-28 18:41:56,209 INFO osmnx Saved response to cache file "cache/8bb08ae8549cb04c5fe58021c78e21eb.json"
+2017-07-28 18:41:56,209 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.76 seconds
+2017-07-28 18:41:56,789 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 0.40 seconds
+2017-07-28 18:41:56,795 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:41:56,795 INFO osmnx Created bounding box 2000 meters in each direction from (41.811647, 140.749926) and projected it: 4630894.17189,4626894.17189,481228.496077,477228.496077
+2017-07-28 18:41:57,362 INFO osmnx Saved the figure to disk in 0.08 seconds
+2017-07-28 18:42:23,447 INFO osmnx Configured osmnx
+2017-07-28 18:42:23,453 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:42:23,457 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:42:23,457 INFO osmnx Created bounding box 5000 meters in each direction from (41.811647, 140.749926): 41.8566812138,41.7666124314,140.810122042,140.689730357
+2017-07-28 18:42:23,461 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:42:23,464 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:42:23,466 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:42:23,907 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:42:23,907 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](41.76661243,140.68973036,41.85668121,140.81012204);(._;>;););(relation["building"](41.76661243,140.68973036,41.85668121,140.81012204);(._;>;);));out;'}"
+2017-07-28 18:42:26,424 INFO osmnx Downloaded 2,307.7KB from www.overpass-api.de in 2.52 seconds
+2017-07-28 18:42:26,617 INFO osmnx Saved response to cache file "cache/567cc6817fea191ece51796ad2a2097f.json"
+2017-07-28 18:42:26,618 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 3.15 seconds
+2017-07-28 18:42:28,588 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 1.48 seconds
+2017-07-28 18:42:28,595 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:42:28,596 INFO osmnx Created bounding box 5000 meters in each direction from (41.811647, 140.749926) and projected it: 4633894.17189,4623894.17189,484228.496077,474228.496077
+2017-07-28 18:42:30,026 INFO osmnx Saved the figure to disk in 0.09 seconds
+2017-07-28 18:43:18,055 INFO osmnx Configured osmnx
+2017-07-28 18:43:18,059 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:43:18,062 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:43:18,062 INFO osmnx Created bounding box 5000 meters in each direction from (41.79333, 140.754184): 41.8383643724,41.7482952728,140.814362917,140.694005475
+2017-07-28 18:43:18,065 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:43:18,069 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:43:18,069 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:43:18,457 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:43:18,457 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](41.74829527,140.69400548,41.83836437,140.81436292);(._;>;););(relation["building"](41.74829527,140.69400548,41.83836437,140.81436292);(._;>;);));out;'}"
+2017-07-28 18:43:20,118 INFO osmnx Downloaded 3,428.3KB from www.overpass-api.de in 1.66 seconds
+2017-07-28 18:43:20,453 INFO osmnx Saved response to cache file "cache/c0c5cbf0999ed38b2fa9cd8986fbe1a0.json"
+2017-07-28 18:43:20,454 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 2.38 seconds
+2017-07-28 18:43:23,346 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 2.20 seconds
+2017-07-28 18:43:23,361 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:43:23,361 INFO osmnx Created bounding box 5000 meters in each direction from (41.79333, 140.754184) and projected it: 4631859.50406,4621859.50406,484576.356107,474576.356107
+2017-07-28 18:43:25,319 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 18:47:11,634 INFO osmnx Configured osmnx
+2017-07-28 18:47:11,660 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.02 seconds
+2017-07-28 18:47:11,664 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:47:11,664 INFO osmnx Created bounding box 5000 meters in each direction from (43.083467, 141.373727): 43.1284906559,43.0384429871,141.435151977,141.312301392
+2017-07-28 18:47:11,670 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:47:11,674 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:47:11,674 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:47:12,145 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:47:12,145 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.03844299,141.31230139,43.12849066,141.43515198);(._;>;););(relation["building"](43.03844299,141.31230139,43.12849066,141.43515198);(._;>;);));out;'}"
+2017-07-28 18:47:23,480 INFO osmnx Downloaded 95,815.3KB from www.overpass-api.de in 11.34 seconds
+2017-07-28 18:47:32,296 ERROR osmnx Server at www.overpass-api.de returned status code 200 and no JSON data
+2017-07-28 18:56:50,467 INFO osmnx Configured osmnx
+2017-07-28 18:56:50,497 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.03 seconds
+2017-07-28 18:56:50,502 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:56:50,502 INFO osmnx Created bounding box 3000 meters in each direction from (43.083467, 141.373727): 43.1104812364,43.0564526351,141.410582069,141.336871704
+2017-07-28 18:56:50,506 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:56:50,509 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:56:50,509 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:56:50,924 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:56:50,924 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.05645264,141.33687170,43.11048124,141.41058207);(._;>;););(relation["building"](43.05645264,141.33687170,43.11048124,141.41058207);(._;>;);));out;'}"
+2017-07-28 18:56:55,368 INFO osmnx Downloaded 35,496.8KB from www.overpass-api.de in 4.44 seconds
+2017-07-28 18:56:58,569 ERROR osmnx Server at www.overpass-api.de returned status code 200 and no JSON data
+2017-07-28 18:58:00,608 INFO osmnx Configured osmnx
+2017-07-28 18:58:00,611 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:58:00,615 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:58:00,615 INFO osmnx Created bounding box 2000 meters in each direction from (43.083467, 141.373727): 43.1014765052,43.0654574377,141.398297072,141.349156827
+2017-07-28 18:58:00,618 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:58:00,621 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 18:58:00,621 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 18:58:01,020 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 18:58:01,020 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.06545744,141.34915683,43.10147651,141.39829707);(._;>;););(relation["building"](43.06545744,141.34915683,43.10147651,141.39829707);(._;>;);));out;'}"
+2017-07-28 18:58:05,654 INFO osmnx Downloaded 17,806.7KB from www.overpass-api.de in 4.63 seconds
+2017-07-28 18:58:07,331 INFO osmnx Saved response to cache file "cache/f0003c7fcbd408d0c08e298f36432ab5.json"
+2017-07-28 18:58:07,335 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 6.71 seconds
+2017-07-28 18:58:43,477 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 32.56 seconds
+2017-07-28 18:58:43,496 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 18:58:43,496 INFO osmnx Created bounding box 2000 meters in each direction from (43.083467, 141.373727) and projected it: 4772151.50164,4768151.50164,532420.62126,528420.62126
+2017-07-28 18:58:53,118 INFO osmnx Saved the figure to disk in 0.33 seconds
+2017-07-28 19:00:16,802 INFO osmnx Configured osmnx
+2017-07-28 19:00:16,808 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:00:16,812 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:00:16,812 INFO osmnx Created bounding box 2000 meters in each direction from (43.192517, 141.002368): 43.2105265446,43.1745073985,141.026982348,140.977753651
+2017-07-28 19:00:16,815 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:00:16,819 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:00:16,821 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:00:17,319 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:00:17,319 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.17450740,140.97775365,43.21052654,141.02698235);(._;>;););(relation["building"](43.17450740,140.97775365,43.21052654,141.02698235);(._;>;);));out;'}"
+2017-07-28 19:00:19,526 INFO osmnx Downloaded 275.9KB from www.overpass-api.de in 2.21 seconds
+2017-07-28 19:00:19,552 INFO osmnx Saved response to cache file "cache/b18400584a5709cc8f5fd8ced951676f.json"
+2017-07-28 19:00:19,552 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 2.73 seconds
+2017-07-28 19:00:19,783 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 0.11 seconds
+2017-07-28 19:00:19,872 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:00:19,872 INFO osmnx Created bounding box 2000 meters in each direction from (43.192517, 141.002368) and projected it: 4784193.84506,4780193.84506,502192.408089,498192.408089
+2017-07-28 19:00:20,163 INFO osmnx Saved the figure to disk in 0.10 seconds
+2017-07-28 19:03:27,411 INFO osmnx Configured osmnx
+2017-07-28 19:03:27,431 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.02 seconds
+2017-07-28 19:03:27,436 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:03:27,436 INFO osmnx Created bounding box 2000 meters in each direction from (42.995669, 144.38147): 43.0136603195,42.9776776128,144.405980322,144.356960381
+2017-07-28 19:03:27,440 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:03:27,443 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:03:27,444 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:03:27,858 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:03:27,858 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.97767761,144.35696038,43.01366032,144.40598032);(._;>;););(relation["building"](42.97767761,144.35696038,43.01366032,144.40598032);(._;>;);));out;'}"
+2017-07-28 19:03:28,522 INFO osmnx Downloaded 44.5KB from www.overpass-api.de in 0.66 seconds
+2017-07-28 19:03:28,565 INFO osmnx Saved response to cache file "cache/55a825a0c34ee09c0c65948116893da9.json"
+2017-07-28 19:03:28,566 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.12 seconds
+2017-07-28 19:03:28,594 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-55 in 0.02 seconds
+2017-07-28 19:03:28,598 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:03:28,598 INFO osmnx Created bounding box 2000 meters in each direction from (42.995669, 144.38147) and projected it: 4765661.29604,4761661.29604,288547.631338,284547.631338
+2017-07-28 19:03:28,750 INFO osmnx Saved the figure to disk in 0.07 seconds
+2017-07-28 19:05:03,391 INFO osmnx Configured osmnx
+2017-07-28 19:05:03,394 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:05:03,400 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:05:03,400 INFO osmnx Created bounding box 2000 meters in each direction from (42.987333, 144.407772): 43.0053247224,42.9693412101,144.432279519,144.383265177
+2017-07-28 19:05:03,403 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:05:03,407 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:05:03,408 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:05:03,849 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:05:03,849 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](42.96934121,144.38326518,43.00532472,144.43227952);(._;>;););(relation["building"](42.96934121,144.38326518,43.00532472,144.43227952);(._;>;);));out;'}"
+2017-07-28 19:05:04,783 INFO osmnx Downloaded 52.5KB from www.overpass-api.de in 0.93 seconds
+2017-07-28 19:05:04,789 INFO osmnx Saved response to cache file "cache/fcc3277373c85e9d4a8adc86d5419f31.json"
+2017-07-28 19:05:04,789 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.38 seconds
+2017-07-28 19:05:04,819 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-55 in 0.02 seconds
+2017-07-28 19:05:04,822 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:05:04,822 INFO osmnx Created bounding box 2000 meters in each direction from (42.987333, 144.407772) and projected it: 4764668.99593,4760668.99593,290663.192601,286663.192601
+2017-07-28 19:05:04,971 INFO osmnx Saved the figure to disk in 0.07 seconds
+2017-07-28 19:07:43,309 INFO osmnx Configured osmnx
+2017-07-28 19:07:43,313 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:07:43,318 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:07:43,318 INFO osmnx Created bounding box 2000 meters in each direction from (35.671419, 139.76515): 35.6894476482,35.6533902958,139.78724442,139.743055826
+2017-07-28 19:07:43,322 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:07:43,325 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:07:43,325 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:07:43,730 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:07:43,730 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.65339030,139.74305583,35.68944765,139.78724442);(._;>;););(relation["building"](35.65339030,139.74305583,35.68944765,139.78724442);(._;>;);));out;'}"
+2017-07-28 19:07:46,928 INFO osmnx Downloaded 10,009.6KB from www.overpass-api.de in 3.20 seconds
+2017-07-28 19:07:47,750 INFO osmnx Saved response to cache file "cache/95a594032b37f06529f6e5bad1b54259.json"
+2017-07-28 19:07:47,753 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 4.43 seconds
+2017-07-28 19:07:47,908 INFO osmnx Polygon has invalid geometry: [2912950546L, 1588177770]
+2017-07-28 19:07:47,914 INFO osmnx Polygon has invalid geometry: [1588257688, 1588257546]
+2017-07-28 19:07:47,921 INFO osmnx Polygon has invalid geometry: [1589169098, 1589169100]
+2017-07-28 19:07:47,924 INFO osmnx Polygon has invalid geometry: [1589169111, 1589169135]
+2017-07-28 19:07:48,164 INFO osmnx Polygon has invalid geometry: [3682775669L, 559302015]
+2017-07-28 19:07:48,282 INFO osmnx Polygon has invalid geometry: [2565959681L, 2565959682L]
+2017-07-28 19:07:48,282 INFO osmnx Polygon has invalid geometry: [2565959686L, 2565959685L]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [2914063356L, 2914063363L]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [2914125891L, 2914125890L]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [2914127401L, 2914125899L]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [2914125858L, 2914125856L]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [1059532205, 1059532121]
+2017-07-28 19:07:48,292 INFO osmnx Polygon has invalid geometry: [2915694400L, 2915694397L]
+2017-07-28 19:07:48,293 INFO osmnx Polygon has invalid geometry: [2915694395L, 2915694394L]
+2017-07-28 19:07:48,293 INFO osmnx Polygon has invalid geometry: [2915694397L, 2915694395L]
+2017-07-28 19:07:48,293 INFO osmnx Polygon has invalid geometry: [2915695531L, 2915695544L]
+2017-07-28 19:07:48,346 INFO osmnx Polygon has invalid geometry: [1589169141, 1589169156]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589168922, 1589168932]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169174, 1589169172]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169229, 3110526313L]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169006, 1589169111]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169196, 1589169174]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169100, 1589169093]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169172, 1589169199]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589168673, 1589168769]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169137, 1589169148]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169231, 1589169196]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589168825, 1589169098]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169093, 1589169137]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169148, 1589169154]
+2017-07-28 19:07:48,348 INFO osmnx Polygon has invalid geometry: [1589169133, 1589169152]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589169139, 1589169132]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589168769, 1589168828]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589169132, 1589168889]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589168889, 3110587183L]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589168919, 1589168922]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589169152, 1589169141]
+2017-07-28 19:07:48,349 INFO osmnx Polygon has invalid geometry: [1589168873, 3110591630L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110584371L, 3110584363L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169154, 1589169139]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110584377L, 1589169229]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169239, 3110584377L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169162, 1589169203]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169203, 1589169212]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110584363L, 3110584361L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169156, 1589169162]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110584368L, 3110584371L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110584361L, 3110584368L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110587182L, 1589168825]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110587182L, 3110587183L]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169043, 1589169047]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [1589169028, 1589169006]
+2017-07-28 19:07:48,351 INFO osmnx Polygon has invalid geometry: [3110591634L, 1589169028]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [3110591633L, 1589168919]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589168932, 1589168893]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589168971, 1589169071]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589168893, 1589168971]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589169071, 1589169043]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589169116, 1589169187]
+2017-07-28 19:07:48,352 INFO osmnx Polygon has invalid geometry: [1589169135, 1589169073]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169187, 1589169169]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169051, 3110591634L]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169150, 1589169133]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169073, 1589169051]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169049, 1589169070]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169047, 1589169059]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169059, 1589169049]
+2017-07-28 19:07:48,354 INFO osmnx Polygon has invalid geometry: [1589169169, 1589169150]
+2017-07-28 19:07:48,355 INFO osmnx Polygon has invalid geometry: [1589169070, 1589169089]
+2017-07-28 19:07:48,427 INFO osmnx Polygon has invalid geometry: [3170822029L, 3170822026L]
+2017-07-28 19:07:48,427 INFO osmnx Polygon has invalid geometry: [3170822037L, 1490261071]
+2017-07-28 19:07:48,428 INFO osmnx Polygon has invalid geometry: [3170822026L, 1490261065]
+2017-07-28 19:07:48,428 INFO osmnx Polygon has invalid geometry: [2035323200, 3170822029L]
+2017-07-28 19:07:48,430 INFO osmnx Polygon has invalid geometry: [3217892704L, 3217892703L]
+2017-07-28 19:07:48,430 INFO osmnx Polygon has invalid geometry: [3220841193L, 3220841191L]
+2017-07-28 19:07:48,430 INFO osmnx Polygon has invalid geometry: [1089664457, 1089664438]
+2017-07-28 19:07:48,430 INFO osmnx Polygon has invalid geometry: [1089664633, 1089664583]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959683L, 2565959684L]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959684L, 2565959686L]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959679L, 2565959680L]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959665L, 2565959666L]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959685L, 2565959683L]
+2017-07-28 19:07:48,431 INFO osmnx Polygon has invalid geometry: [2565959682L, 2565959679L]
+2017-07-28 19:07:48,433 INFO osmnx Polygon has invalid geometry: [2565959680L, 2565959681L]
+2017-07-28 19:07:48,433 INFO osmnx Polygon has invalid geometry: [2565959673L, 2565959671L]
+2017-07-28 19:07:48,434 INFO osmnx Polygon has invalid geometry: [1588257528, 3492989538L]
+2017-07-28 19:07:48,434 INFO osmnx Polygon has invalid geometry: [1588257534, 3492989539L]
+2017-07-28 19:07:48,434 INFO osmnx Polygon has invalid geometry: [1588257612, 1596070668]
+2017-07-28 19:07:48,434 INFO osmnx Polygon has invalid geometry: [3492989550L, 1588257539]
+2017-07-28 19:07:48,434 INFO osmnx Polygon has invalid geometry: [1588257750, 1588257758]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [3492989585L, 1588257688]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257546, 1588257545]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257766, 1588257755]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257554, 1588257607]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257536, 1588257538]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257742, 3492989897L]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [1588257656, 3492989582L]
+2017-07-28 19:07:48,436 INFO osmnx Polygon has invalid geometry: [3492989540L, 1588257530]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [1596070668, 1588257656]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [1588257718, 1588257701]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [1588257543, 1588257540]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [1588257752, 1588257742]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [3492989910L, 1588257750]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [3492989538L, 3492989540L]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [3492989911L, 3492989910L]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [1588257539, 1588257534]
+2017-07-28 19:07:48,437 INFO osmnx Polygon has invalid geometry: [3494860775L, 3494860788L]
+2017-07-28 19:07:48,440 INFO osmnx Polygon has invalid geometry: [1866774232, 3682775669L]
+2017-07-28 19:07:48,443 INFO osmnx Polygon has invalid geometry: [2915695544L, 2915695556L]
+2017-07-28 19:08:42,131 INFO osmnx Configured osmnx
+2017-07-28 19:08:42,134 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:08:42,138 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:08:42,138 INFO osmnx Created bounding box 2000 meters in each direction from (35.671455, 139.765751): 35.6894836522,35.6534262918,139.787845435,139.743656811
+2017-07-28 19:08:42,141 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:08:42,144 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:08:42,145 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:08:42,559 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:08:42,559 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.65342629,139.74365681,35.68948365,139.78784544);(._;>;););(relation["building"](35.65342629,139.74365681,35.68948365,139.78784544);(._;>;);));out;'}"
+2017-07-28 19:08:45,898 INFO osmnx Downloaded 9,906.2KB from www.overpass-api.de in 3.34 seconds
+2017-07-28 19:08:46,716 INFO osmnx Saved response to cache file "cache/784083c01115ac782f1d6c0c2c638255.json"
+2017-07-28 19:08:46,719 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 4.57 seconds
+2017-07-28 19:08:46,917 INFO osmnx Polygon has invalid geometry: [2912950546L, 1588177770]
+2017-07-28 19:08:46,924 INFO osmnx Polygon has invalid geometry: [1588257688, 1588257546]
+2017-07-28 19:08:46,930 INFO osmnx Polygon has invalid geometry: [1589169098, 1589169100]
+2017-07-28 19:08:46,934 INFO osmnx Polygon has invalid geometry: [1589169111, 1589169135]
+2017-07-28 19:08:47,158 INFO osmnx Polygon has invalid geometry: [3682775669L, 559302015]
+2017-07-28 19:08:47,275 INFO osmnx Polygon has invalid geometry: [2565959681L, 2565959682L]
+2017-07-28 19:08:47,275 INFO osmnx Polygon has invalid geometry: [2565959686L, 2565959685L]
+2017-07-28 19:08:47,285 INFO osmnx Polygon has invalid geometry: [2914063356L, 2914063363L]
+2017-07-28 19:08:47,285 INFO osmnx Polygon has invalid geometry: [2914125891L, 2914125890L]
+2017-07-28 19:08:47,285 INFO osmnx Polygon has invalid geometry: [2914127401L, 2914125899L]
+2017-07-28 19:08:47,285 INFO osmnx Polygon has invalid geometry: [2914125858L, 2914125856L]
+2017-07-28 19:08:47,286 INFO osmnx Polygon has invalid geometry: [1059532205, 1059532121]
+2017-07-28 19:08:47,286 INFO osmnx Polygon has invalid geometry: [2915694400L, 2915694397L]
+2017-07-28 19:08:47,286 INFO osmnx Polygon has invalid geometry: [2915694395L, 2915694394L]
+2017-07-28 19:08:47,286 INFO osmnx Polygon has invalid geometry: [2915694397L, 2915694395L]
+2017-07-28 19:08:47,286 INFO osmnx Polygon has invalid geometry: [2915695531L, 2915695544L]
+2017-07-28 19:08:47,365 INFO osmnx Polygon has invalid geometry: [1589169141, 1589169156]
+2017-07-28 19:08:47,365 INFO osmnx Polygon has invalid geometry: [1589168922, 1589168932]
+2017-07-28 19:08:47,367 INFO osmnx Polygon has invalid geometry: [1589169174, 1589169172]
+2017-07-28 19:08:47,367 INFO osmnx Polygon has invalid geometry: [1589169229, 3110526313L]
+2017-07-28 19:08:47,367 INFO osmnx Polygon has invalid geometry: [1589169006, 1589169111]
+2017-07-28 19:08:47,367 INFO osmnx Polygon has invalid geometry: [1589169196, 1589169174]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169100, 1589169093]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169172, 1589169199]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589168673, 1589168769]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169137, 1589169148]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169231, 1589169196]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589168825, 1589169098]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169093, 1589169137]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169148, 1589169154]
+2017-07-28 19:08:47,368 INFO osmnx Polygon has invalid geometry: [1589169133, 1589169152]
+2017-07-28 19:08:47,369 INFO osmnx Polygon has invalid geometry: [1589169139, 1589169132]
+2017-07-28 19:08:47,369 INFO osmnx Polygon has invalid geometry: [1589168769, 1589168828]
+2017-07-28 19:08:47,369 INFO osmnx Polygon has invalid geometry: [1589169132, 1589168889]
+2017-07-28 19:08:47,369 INFO osmnx Polygon has invalid geometry: [1589168889, 3110587183L]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589168919, 1589168922]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589169152, 1589169141]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589168873, 3110591630L]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [3110584371L, 3110584363L]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589169154, 1589169139]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [3110584377L, 1589169229]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589169239, 3110584377L]
+2017-07-28 19:08:47,371 INFO osmnx Polygon has invalid geometry: [1589169162, 1589169203]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [1589169203, 1589169212]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [3110584363L, 3110584361L]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [1589169156, 1589169162]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [3110584368L, 3110584371L]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [3110584361L, 3110584368L]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [3110587182L, 1589168825]
+2017-07-28 19:08:47,372 INFO osmnx Polygon has invalid geometry: [3110587182L, 3110587183L]
+2017-07-28 19:08:47,374 INFO osmnx Polygon has invalid geometry: [1589169043, 1589169047]
+2017-07-28 19:08:47,374 INFO osmnx Polygon has invalid geometry: [1589169028, 1589169006]
+2017-07-28 19:08:47,374 INFO osmnx Polygon has invalid geometry: [3110591634L, 1589169028]
+2017-07-28 19:08:47,374 INFO osmnx Polygon has invalid geometry: [3110591633L, 1589168919]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589168932, 1589168893]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589168971, 1589169071]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589168893, 1589168971]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169071, 1589169043]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169116, 1589169187]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169135, 1589169073]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169187, 1589169169]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169051, 3110591634L]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169150, 1589169133]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169073, 1589169051]
+2017-07-28 19:08:47,375 INFO osmnx Polygon has invalid geometry: [1589169049, 1589169070]
+2017-07-28 19:08:47,377 INFO osmnx Polygon has invalid geometry: [1589169047, 1589169059]
+2017-07-28 19:08:47,377 INFO osmnx Polygon has invalid geometry: [1589169059, 1589169049]
+2017-07-28 19:08:47,377 INFO osmnx Polygon has invalid geometry: [1589169169, 1589169150]
+2017-07-28 19:08:47,378 INFO osmnx Polygon has invalid geometry: [1589169070, 1589169089]
+2017-07-28 19:08:47,476 INFO osmnx Polygon has invalid geometry: [3170822029L, 3170822026L]
+2017-07-28 19:08:47,476 INFO osmnx Polygon has invalid geometry: [3170822037L, 1490261071]
+2017-07-28 19:08:47,476 INFO osmnx Polygon has invalid geometry: [3170822026L, 1490261065]
+2017-07-28 19:08:47,477 INFO osmnx Polygon has invalid geometry: [2035323200, 3170822029L]
+2017-07-28 19:08:47,479 INFO osmnx Polygon has invalid geometry: [3217892704L, 3217892703L]
+2017-07-28 19:08:47,480 INFO osmnx Polygon has invalid geometry: [3220841193L, 3220841191L]
+2017-07-28 19:08:47,482 INFO osmnx Polygon has invalid geometry: [1089664457, 1089664438]
+2017-07-28 19:08:47,482 INFO osmnx Polygon has invalid geometry: [1089664633, 1089664583]
+2017-07-28 19:08:47,483 INFO osmnx Polygon has invalid geometry: [2565959683L, 2565959684L]
+2017-07-28 19:08:47,483 INFO osmnx Polygon has invalid geometry: [2565959684L, 2565959686L]
+2017-07-28 19:08:47,483 INFO osmnx Polygon has invalid geometry: [2565959679L, 2565959680L]
+2017-07-28 19:08:47,483 INFO osmnx Polygon has invalid geometry: [2565959665L, 2565959666L]
+2017-07-28 19:08:47,483 INFO osmnx Polygon has invalid geometry: [2565959685L, 2565959683L]
+2017-07-28 19:08:47,484 INFO osmnx Polygon has invalid geometry: [2565959682L, 2565959679L]
+2017-07-28 19:08:47,484 INFO osmnx Polygon has invalid geometry: [2565959680L, 2565959681L]
+2017-07-28 19:08:47,484 INFO osmnx Polygon has invalid geometry: [2565959673L, 2565959671L]
+2017-07-28 19:08:47,487 INFO osmnx Polygon has invalid geometry: [1588257528, 3492989538L]
+2017-07-28 19:08:47,487 INFO osmnx Polygon has invalid geometry: [1588257534, 3492989539L]
+2017-07-28 19:08:47,487 INFO osmnx Polygon has invalid geometry: [1588257612, 1596070668]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [3492989550L, 1588257539]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [1588257750, 1588257758]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [3492989585L, 1588257688]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [1588257546, 1588257545]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [1588257766, 1588257755]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [1588257554, 1588257607]
+2017-07-28 19:08:47,489 INFO osmnx Polygon has invalid geometry: [1588257536, 1588257538]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257742, 3492989897L]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257656, 3492989582L]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [3492989540L, 1588257530]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1596070668, 1588257656]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257718, 1588257701]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257543, 1588257540]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257752, 1588257742]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [3492989910L, 1588257750]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [3492989538L, 3492989540L]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [3492989911L, 3492989910L]
+2017-07-28 19:08:47,490 INFO osmnx Polygon has invalid geometry: [1588257539, 1588257534]
+2017-07-28 19:08:47,492 INFO osmnx Polygon has invalid geometry: [3494860775L, 3494860788L]
+2017-07-28 19:08:47,493 INFO osmnx Polygon has invalid geometry: [1866774232, 3682775669L]
+2017-07-28 19:08:47,497 INFO osmnx Polygon has invalid geometry: [2915695544L, 2915695556L]
+2017-07-28 19:09:37,092 INFO osmnx Configured osmnx
+2017-07-28 19:09:37,095 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:09:37,099 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:09:37,099 INFO osmnx Created bounding box 2000 meters in each direction from (35.65988, 139.700984): 35.6779082349,35.641851709,139.723074699,139.678893561
+2017-07-28 19:09:37,104 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:09:37,107 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:09:37,107 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:09:37,796 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:09:37,796 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.64185171,139.67889356,35.67790823,139.72307470);(._;>;););(relation["building"](35.64185171,139.67889356,35.67790823,139.72307470);(._;>;);));out;'}"
+2017-07-28 19:09:43,296 INFO osmnx Downloaded 15,933.7KB from www.overpass-api.de in 5.50 seconds
+2017-07-28 19:09:44,601 INFO osmnx Saved response to cache file "cache/c07c9c76d93acfd842d6eee1bfd69083.json"
+2017-07-28 19:09:44,605 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 7.50 seconds
+2017-07-28 19:10:18,477 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 30.36 seconds
+2017-07-28 19:10:18,480 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:10:18,482 INFO osmnx Created bounding box 2000 meters in each direction from (35.65988, 139.700984) and projected it: 3949002.36941,3945002.36941,384418.865874,380418.865874
+2017-07-28 19:10:27,259 INFO osmnx Saved the figure to disk in 0.30 seconds
+2017-07-28 19:13:30,941 INFO osmnx Configured osmnx
+2017-07-28 19:13:30,946 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:13:30,950 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:13:30,950 INFO osmnx Created bounding box 2000 meters in each direction from (43.458579, 142.46268): 43.476581823,43.4405761166,142.487393737,142.437965861
+2017-07-28 19:13:30,953 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:13:30,956 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:13:30,957 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:13:31,368 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:13:31,368 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.44057612,142.43796586,43.47658182,142.48739374);(._;>;););(relation["building"](43.44057612,142.43796586,43.47658182,142.48739374);(._;>;);));out;'}"
+2017-07-28 19:13:32,052 INFO osmnx Downloaded 10.5KB from www.overpass-api.de in 0.68 seconds
+2017-07-28 19:13:32,055 INFO osmnx Saved response to cache file "cache/48d80113305edb496473e711b374f828.json"
+2017-07-28 19:13:32,055 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.10 seconds
+2017-07-28 19:13:32,137 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 0.01 seconds
+2017-07-28 19:13:32,213 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:13:32,213 INFO osmnx Created bounding box 2000 meters in each direction from (43.458579, 142.46268) and projected it: 4814780.2845,4810780.2845,620330.901076,616330.901076
+2017-07-28 19:13:32,339 INFO osmnx Saved the figure to disk in 0.07 seconds
+2017-07-28 19:14:23,122 INFO osmnx Configured osmnx
+2017-07-28 19:14:23,125 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:14:23,131 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:14:23,131 INFO osmnx Created bounding box 2000 meters in each direction from (44.013794, 144.111502): 44.0317780214,43.9958099079,144.136422137,144.086582675
+2017-07-28 19:14:23,134 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:14:23,138 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:14:23,140 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:14:23,539 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:14:23,539 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](43.99580991,144.08658268,44.03177802,144.13642214);(._;>;););(relation["building"](43.99580991,144.08658268,44.03177802,144.13642214);(._;>;);));out;'}"
+2017-07-28 19:14:24,170 INFO osmnx Downloaded 6.5KB from www.overpass-api.de in 0.63 seconds
+2017-07-28 19:14:24,171 INFO osmnx Saved response to cache file "cache/2d96dee46588ebe1dc19558ea2f9b153.json"
+2017-07-28 19:14:24,171 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 1.03 seconds
+2017-07-28 19:14:24,180 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-55 in 0.01 seconds
+2017-07-28 19:14:24,183 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-55 in 0.00 seconds
+2017-07-28 19:14:24,184 INFO osmnx Created bounding box 2000 meters in each direction from (44.013794, 144.111502) and projected it: 4879461.85996,4875461.85996,270467.386774,266467.386774
+2017-07-28 19:14:24,355 INFO osmnx Saved the figure to disk in 0.11 seconds
+2017-07-28 19:15:42,888 INFO osmnx Configured osmnx
+2017-07-28 19:15:42,891 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:15:42,895 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:15:42,897 INFO osmnx Created bounding box 2000 meters in each direction from (35.691502, 139.703481): 35.7095301579,35.673473786,139.725580437,139.681381823
+2017-07-28 19:15:42,900 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:15:42,904 INFO osmnx Projected the GeoDataFrame "geometry to project" to EPSG 4326 in 0.00 seconds
+2017-07-28 19:15:42,904 INFO osmnx Requesting building footprints data within bounding box from API in 1 request(s)
+2017-07-28 19:15:43,322 INFO osmnx Pausing 0.00 seconds before making API POST request
+2017-07-28 19:15:43,322 INFO osmnx Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((way["building"](35.67347379,139.68138182,35.70953016,139.72558044);(._;>;););(relation["building"](35.67347379,139.68138182,35.70953016,139.72558044);(._;>;);));out;'}"
+2017-07-28 19:15:46,526 INFO osmnx Downloaded 15,527.8KB from www.overpass-api.de in 3.20 seconds
+2017-07-28 19:15:47,786 INFO osmnx Saved response to cache file "cache/b98088582057b1af34c82f6cca279865.json"
+2017-07-28 19:15:47,790 INFO osmnx Got all building footprints data within bounding box from API in 1 request(s) and 4.89 seconds
+2017-07-28 19:16:19,493 INFO osmnx Projected the GeoDataFrame "unnamed" to UTM-54 in 28.23 seconds
+2017-07-28 19:16:19,497 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-54 in 0.00 seconds
+2017-07-28 19:16:19,497 INFO osmnx Created bounding box 2000 meters in each direction from (35.691502, 139.703481) and projected it: 3952506.82632,3948506.82632,384691.190914,380691.190914
+2017-07-28 19:16:28,081 INFO osmnx Saved the figure to disk in 0.28 seconds
